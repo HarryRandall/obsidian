@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bb55c2d5c606e0d4",
+            "id": "486c6fa15c5ba12c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Comp2400/Week 0/Introduction to Database Systems.md",
+                "file": "COMP2400/Week 0/1. Introduction to Database Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Database Systems"
-            }
-          },
-          {
-            "id": "2054eacb0af66819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comp2400/Week 0/Basic Maths for Relational Databases.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basic Maths for Relational Databases"
-            }
-          },
-          {
-            "id": "7f1502c3cb022080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FINM2002/Lecture 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 1"
-            }
-          },
-          {
-            "id": "9382c45e9843e918",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comp2400/Week 2/Lecture 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "1. Introduction to Database Systems"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -120,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "122c78fd9c72ad68",
@@ -136,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Comp2400/Week 2/Lecture 2.md",
+                "file": "COMP2400/Week 0/Basic Maths for Relational Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 2"
+              "title": "Backlinks for Basic Maths for Relational Databases"
             }
           },
           {
@@ -155,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Comp2400/Week 2/Lecture 2.md",
+                "file": "COMP2400/Week 0/Basic Maths for Relational Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 2"
+              "title": "Outgoing links from Basic Maths for Relational Databases"
             }
           },
           {
@@ -182,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Comp2400/Week 2/Lecture 2.md"
+                "file": "COMP2400/Week 0/Basic Maths for Relational Databases.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 2"
+              "title": "Outline of Basic Maths for Relational Databases"
             }
           }
         ]
@@ -205,17 +164,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5f409b808144d0e",
+  "active": "486c6fa15c5ba12c",
   "lastOpenFiles": [
+    "Pasted image 20250214124914.png",
+    "Pasted image 20250214121846.png",
+    "COMP2400/Week 0/2. Basic Maths for Relational Databases.md",
+    "COMP2400/Week 0/1. Introduction to Database Systems.md",
+    "COMP2400/Week 1/Lecture 2.md",
     "FINM2002/Lecture 1.md",
-    "Comp2400/Week 2/Lecture 2.md",
-    "Comp2400/Week 2",
-    "Comp2400/Week 0/Basic Maths for Relational Databases.md",
-    "Comp2400/Week 0/Introduction to Database Systems.md",
-    "Comp2400/Week 0",
+    "COMP2400/Week 1",
+    "COMP2400/Week 0",
     "FINM2002",
     "MGMT3005",
     "INFS1001",
-    "Comp2400"
+    "COMP2400"
   ]
 }
