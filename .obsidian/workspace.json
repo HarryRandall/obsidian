@@ -8,29 +8,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c969ffefa73ca736",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FINM2002/Week 1/Workshop 1 Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workshop 1 Notes"
+            }
+          },
+          {
             "id": "70caccdde965b121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FINM2002/Week 0/Chapter 1 (Introduction).md",
+                "file": "INFS1001/Week 1/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1 (Introduction)"
-            }
-          },
-          {
-            "id": "1949c4cb2e951a06",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "FINM2002/Textbook.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Textbook"
+              "title": "Lecture 1"
             }
           }
         ],
@@ -176,15 +178,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1949c4cb2e951a06",
+  "active": "70caccdde965b121",
   "lastOpenFiles": [
+    "INFS1001/Week 1/INFS1001 Deck Week 1.pdf",
     "FINM2002/Week 0/Chapter 1 (Introduction).md",
-    "FINM2002/Textbook.pdf",
-    "FINM2002/Week 0/Chapter 2.md",
-    "FINM2002/Week 1/Lecture 1 Slides.pdf",
     "FINM2002/Week 1/Tutorial 1 Questions.md",
-    "FINM2002/Week 1/Lecture 1 Notes.md",
+    "FINM2002/Week 1/Workshop 1.pdf",
     "FINM2002/Week 1/Workshop 1 Notes.md",
+    "FINM2002/Week 1/Lecture 1 Notes.md",
+    "FINM2002/Week 1/Lecture 1 Slides.pdf",
+    "Screenshot 2025-02-18 at 11.20.17 am.png",
+    "FINM2002/Images/Screenshot 2025-02-17 at 6.26.26 pm.png",
+    "FINM2002/Images/Screenshot 2025-02-18 at 10.49.49 am.png",
+    "FINM2002/Images/Screenshot 2025-02-18 at 10.48.42 am.png",
+    "FINM2002/Textbook.pdf",
+    "INFS1001/Week 1/Lecture 1.md",
+    "FINM2002/Week 0/Chapter 2.md",
+    "FINM2002/Images/Screenshot 2025-02-17 at 6.07.37 pm.png",
+    "FINM2002/Images",
+    "FINM2002/Images/Screenshot 2025-02-17 at 6.07.25 pm.png",
     "FINM2002/Week 0",
     "Ventures/Java Refresher/Online Course.md",
     "Ventures/Java Refresher",
@@ -192,12 +204,9 @@
     "COMP2400/Week 0/2. Basic Maths for Relational Databases.md",
     "COMP2400/Week 0/1. Introduction to Database Systems.md",
     "COMP2400/Week 1/Lecture 1.md",
-    "INFS1001/Week 1/INFS1001 Deck Week 1.pdf",
-    "FINM2002/Week 1/Workshop 1.pdf",
     "FINM2002/Week 1/Tutorial 1 Question.pdf",
     "FINM2002/Lecture 1.md",
     "FINM2002/Week 1",
-    "INFS1001 Deck Week 1.pdf",
     "COMP2400/Images/Pasted image 20250214124914.png",
     "COMP2400/Images/Pasted image 20250214121846.png"
   ]

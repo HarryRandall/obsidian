@@ -11,8 +11,9 @@ Explain why a futures contract can be used for either speculation or hedging.
 A cattle farmer expects to have $120,000$ of live cattle to sell in three months. The live-cattle futures contract on the Chicago Mercantile Exchange is for the delivery of $40,000$ of cattle.  
 
 - How can the farmer use the contract for hedging?  
+$\frac{120000}{40000}$ = 3 contracts
 - From the farmer’s viewpoint, what are the pros and cons of hedging?  
-
+They are obliged to provide 3 contracts of $40,000$ cattle, so if they don't have all of the live cattle, they will have to buy cattle on their own accord to meet the contract.
 ---
 ### Question $4$ (2.10)
 Explain how margins protect investors against the possibility of default.  
