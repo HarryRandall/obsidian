@@ -13,15 +13,70 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP2400/Week 1/Lecture 1.md",
+                "file": "INFS1001/Week 1/Lecture 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Lecture 1"
             }
+          },
+          {
+            "id": "4c17d3aea0921993",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFS1001/Bar Assignment/Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overview"
+            }
+          },
+          {
+            "id": "59604911dd805ff6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFS1001/Week 2/Tutorial 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial 1"
+            }
+          },
+          {
+            "id": "c1137dbfb66c1f81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP2400/Week 0/2. Basic Maths for Relational Databases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Basic Maths for Relational Databases"
+            }
+          },
+          {
+            "id": "e2264ab49defb09d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "INFS1001/Week 1/INFS1001 Deck Week 1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "INFS1001 Deck Week 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "122c78fd9c72ad68",
@@ -163,40 +219,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60a206d2fb24a1f4",
+  "active": "c1137dbfb66c1f81",
   "lastOpenFiles": [
-    "COMP2400/Week 0/1. Introduction to Database Systems.md",
-    "COMP2400/Week 1/Lecture 1.md",
-    "MGMT3005/Week 1/Lecture 1.pdf",
+    "Screenshot 2025-02-23 at 3.39.09 pm.png",
+    "Screenshot 2025-02-23 at 3.37.18 pm.png",
+    "Screenshot 2025-02-23 at 3.35.09 pm.png",
+    "INFS1001/Week 2/INFS1001 Deck Week 2.pptx.pdf",
+    "INFS1001/Week 2/Lecture 2.md",
+    "INFS1001/Week 2/Tutorial 1.md",
+    "COMP2400/Week 0/2. Basic Maths for Relational Databases.md",
+    "COMP2400/Images/Pasted image 20250223113106.png",
+    "FINM2002/Textbook.pdf",
+    "FINM2002/Week 2",
+    "FINM2002/Week 1/Workshop 1 Notes.md",
+    "FINM2002/Week 1/Workshop 1.pdf",
     "FINM2002/Week 1/Tutorial 1 Questions.md",
-    "FINM2002/Week 1/Lecture 1 Slides.pdf",
+    "MGMT3005/Week 1/Lecture 1 Notes.md",
+    "Untitled.md",
+    "INFS1001/Media",
+    "INFS1001/Week 1/INFS1001 Deck Week 1.pdf",
+    "INFS1001/Media/INFS1001 Tutorial Week 2(1).pptx.pdf",
+    "INFS1001/Bar Assignment/Overview.md",
+    "INFS1001/Week 2",
+    "INFS1001/Bar Assignment",
+    "INFS1001/Week 1/Lecture 1.md",
+    "COMP2400/Week 1/Lecture 1.md",
+    "COMP2400/Week 0/1. Introduction to Database Systems.md",
+    "MGMT3005/Week 1/Lecture 1.pdf",
     "FINM2002/Week 1/Lecture 1 Notes.md",
     "FINM2002/Week 0/Chapter 1 (Introduction).md",
-    "INFS1001/Week 1/Lecture 1.md",
     "MGMT3005/Images/Screenshot 2025-02-19 at 7.28.06 pm.png",
-    "MGMT3005/Images",
-    "MGMT3005/Week 1/Lecture 1 Notes.md",
     "MGMT3005/Group Assignment/Journal Entries.md",
-    "Untitled.md",
-    "FINM2002/Week 1/Workshop 1 Notes.md",
-    "MGMT3005/Group Assignment",
     "FINM2002/Images/Screenshot 2025-02-18 at 11.20.17 am.png",
     "Ventures/Java Refresher/Online Course.md",
-    "MGMT3005/Week 1",
-    "INFS1001/Week 1/INFS1001 Deck Week 1.pdf",
-    "FINM2002/Week 1/Workshop 1.pdf",
     "FINM2002/Images/Screenshot 2025-02-17 at 6.26.26 pm.png",
     "FINM2002/Images/Screenshot 2025-02-18 at 10.49.49 am.png",
     "FINM2002/Images/Screenshot 2025-02-18 at 10.48.42 am.png",
-    "FINM2002/Textbook.pdf",
     "FINM2002/Week 0/Chapter 2.md",
     "FINM2002/Images/Screenshot 2025-02-17 at 6.07.37 pm.png",
-    "FINM2002/Images",
     "FINM2002/Images/Screenshot 2025-02-17 at 6.07.25 pm.png",
-    "FINM2002/Week 0",
-    "COMP2400/Week 0/2. Basic Maths for Relational Databases.md",
-    "FINM2002/Lecture 1.md",
-    "COMP2400/Images/Pasted image 20250214124914.png",
-    "COMP2400/Images/Pasted image 20250214121846.png"
+    "FINM2002/Lecture 1.md"
   ]
 }

@@ -1,0 +1,1 @@
+![[INFS1001 Tutorial Week 2(1).pptx.pdf]]
