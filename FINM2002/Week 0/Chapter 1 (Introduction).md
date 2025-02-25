@@ -79,7 +79,3 @@ There are four main players in the options market:
 Futures, forward, and option markets thrive due to high liquidity, attracting diverse traders. These traders fall into three categories: **hedgers** (reducing risk from future market movements), **speculators** (betting on future market direction), and **arbitrageurs** (exploiting the price differences for guaranteed profit). Hedge funds are notable users of derivatives for all three purposes.
 
 ---
-#### 1.8 Hedgers 
-
-- Hedging your bets
-- Speculation

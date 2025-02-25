@@ -132,5 +132,20 @@ During the delivery period
 	- Cash delivery
 - Go over this section
 
+---
 #### Options
-- 
+- Options provide the **right**, but not **the obligation**, to either **buy** (call) or **sell** (put) an asset at a set price (strike) by a specific date. The timing of exercise differentiates American (anytime) and European (expiry only) options.
+
+**Positions**
+- Buyers (long) pay a premium for this right.
+- Sellers (short) receive the premium and are obligated to fulfil the contract.
+
+Options differ from forwards/futures:
+- Options require a premium, forwards/futures do not.
+- Options grant rights, forwards/futures create obligations.
+- Options trade both OTC and on exchanges, forwards are OTC, and futures are exchange traded.
+
+Market traders utilise these tools with distinct goals
+- Hedges aim to reduce price risk and hold positions in both the asset and derivatives.
+- Speculators seek profit through price prediction and accept the risk of loss
+- Arbitrageurs exploit price differences for risk-free profit and executre simultaneous trades in multiple markets.
