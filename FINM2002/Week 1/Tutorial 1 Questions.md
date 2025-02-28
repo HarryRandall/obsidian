@@ -1,8 +1,10 @@
 
+**Tutor Name** - Casandra
 ### Question $1$  (1.09)
 A stock when it is first issued provides funds for a company. Is the same true of an exchange-traded stock option? Please discuss.  
 
 A stock when first issued gives the company funds in exchange for a portion of their company. An exchange traded stock is one of those shared on an exchange traded with a 3rd party. While the exchange traded funds don't directly provide funds for the company, if the share is shorted it could increase the price of the stocks indirectly increasing providing funds for the company.
+
 
 ---
 ### Question $2$  (1.10)

@@ -1,11 +1,11 @@
 
 ---
-#### BMC
+#### BMC - ANU
 Key Partners
 - The government for funding
 - Other university body's 
 
-Key activites
+Key activities
 - Classes 
 - Campus/uni experience
 
