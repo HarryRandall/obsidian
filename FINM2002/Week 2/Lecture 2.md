@@ -276,4 +276,115 @@ $p$ is the correlation coefficient between $\triangle S$ and $\triangle F$
 - If $p = 1$ and $\sigma_S = 0.5\sigma_F = h$ then $h = 0.5$
 - You only need to buy half from the futures market,
 
-#### Example - Slide 43->
+**Example**
+- Qantas expects to purchase $P = 2,000,000$ gallons of jet fuel
+- In one month, $T = \frac {1}{12}$ 
+- Decide to use heating oil futures contract as a cross hedge
+- Each futures contract covers $A = 42,000$ gallons of heating oil
+- From historical data, we estimate
+	- The std of the price in jet fuel is $\sigma_S = 2.63\%$
+	- The std of the price in jet fuel is $\sigma_F = 3.13\%$
+	- The correlation between the two prices is $p = 0.928\%$
+- What is the optimal hedge ratio?
+$$h = p \frac {\sigma_S}{\sigma_F} = 0.928 \times \frac {2.63\%}{3.13\%} = 77.77\%$$
+- Design the hedging strategy
+The optimal number of heating oil contracts
+$$N = h \times \frac {P}{A} = 77.77\% \times \frac {2,000,000}{42,000} = 37.03$$
+Rounded to the nearest whole number, 37 contracts
+- Since we want to buy the jet fuel (exposed to price increase), we will enter the long position in 37 contracts of heating oil futures.
+
+- Use stock index futures to hedge a stock portfolio
+	- May want to be out of the market for a short period
+	- Hedge systematic risk
+	- An application of cross-hedging in stock market
+
+#### Hedging Using Index Futures
+- Use stock index to hedge a stock portfolio
+- The optimal hedge ratio is the beta of the portfolio to be hedged $$h = \beta$$
+- The number of index futures contracts to be shorted $$N = \beta\frac{P}{A}$$
+- $P$ is the value of the portfolio
+- $A$ is the value of the asset (stock index) underlying one stock index futures contract index points $\times$ dollar value per point.
+
+**Example**
+- The underlying asset of SPI200 futures is S&P / ASX 200 index
+- SPI200 futures contract is valued at AUD $25 per index point
+- Assume the current S&P / ASX 200 index is 3500 points
+- The value of the portfolio to be hedged is $5 million.
+- The beta of the portfolio is 1.5
+
+- What position is SPI200 futures contracts is necessary to hedge the portfolio?
+
+The beta of our portfolio $\beta = 1.5$ 
+The value of the stock portfolio to be hedged $P = \$5 million$ 
+The dollar value of a single SPI200 futures contract $A = 3500 \times 25$
+$$N = \beta_{portfolio} \frac{Amount to be hedged}{Value of one contract}$$
+$$N = \beta\frac{P}{A}$$
+$$N = 1.5\frac{5,000,000}{3500 \times 25}$$
+$$=85.72$$
+$$= 86 contracts (short)$$
+- We need to short 86 contracts in SPI200 futures to hedge our long portfolio position
+
+- What's the portfolio's new beta ($\beta^*$) after the hedge?
+- Ideally, if all exposure $\beta$ is perfectly hedge, $\beta^* =0$
+- But must often, 
+
+The beta of our portfolio $\beta = 1.5$  
+The value of the stock portfolio to be hedged $P = \$5\,\text{million}$  
+The dollar value of a single SPI200 futures contract $A = 3500 \times 25$
+
+Hedge Calculation:
+$$
+N = \beta \frac{P}{A}
+$$
+$$
+N = 1.5 \frac{5,000,000}{3500 \times 25}
+$$
+$$
+N \approx 85.72
+$$
+$$
+\approx 86 \text{ contracts (short)}
+$$
+
+- We need to short 86 contracts in SPI200 futures to hedge our long portfolio position.
+
+- What's the portfolio's new beta ($\beta^*$) after the hedge?
+- Ideally, if all exposure $\beta$ is perfectly hedged, $\beta^* = 0$
+- In such cases, we only manage to hedge:
+  $$
+  N_{\text{hedged}} = (\beta - \beta^*)\frac{P}{A}
+  $$
+- Rearranging to solve for the new beta:
+  $$
+  \beta^* = \beta - N_{\text{hedged}}\frac{A}{P}
+  $$
+For the given example:
+- $\beta = 1.5$
+- $N_{\text{hedged}} = 86$ contracts
+- $A = 3500 \times 25$
+- $P = \$5\,\text{million}$
+
+Calculating:
+$$
+\beta^* = 1.5 - \frac{86 \times 3500 \times 25}{5,000,000} \approx -0.005
+$$
+
+Thus, $\beta^*$ is very close to zero.
+
+
+**Hedging Extensions:**
+
+1. **Reducing Beta to $\beta^* = 0.75$:**
+   - Instead of a perfect hedge (i.e., reducing $\beta$ from 1.5 to 0), we want to reduce it only to 0.75.
+   - Since hedging 100% of the beta requires 86 contracts, hedging 50% (to reduce from 1.5 to 0.75) requires:
+$$
+     N_{\text{hedged}} = \frac{86}{2} \approx 43 \text{ contracts (short)}
+     $$
+
+2. **Increasing Beta to $\beta^* = 2$:**
+   - Here, we want to increase the portfolio's beta.
+   - The hedge calculation becomes:
+$$
+     N_{\text{hedged}} = (\beta - \beta^*)\frac{P}{A} = (1.5 - 2)\frac{5,000,000}{3500 \times 25} \approx -29
+     $$
+   - The negative result indicates that a long position in the SPI200 futures (of about 29 contracts) is needed to increase the exposure.

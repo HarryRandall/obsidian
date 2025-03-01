@@ -8,3 +8,6 @@
 - I'm sitting at a cafe reflecting on the course.
 ---
 #### Week 2
+- Had the lecture this week, was cool had the coke vs pepsi experiment
+- Little summary of our group
+- 
