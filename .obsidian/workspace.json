@@ -6,7 +6,6 @@
       {
         "id": "c46baaa51aeadc74",
         "type": "tabs",
-        "dimension": 49.22861150070126,
         "children": [
           {
             "id": "768ac409abc5e8df",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Lecture 3"
-            }
-          }
-        ]
-      },
-      {
-        "id": "3a960225f00713d8",
-        "type": "tabs",
-        "dimension": 50.771388499298745,
-        "children": [
-          {
-            "id": "7d7041b624757092",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MGMT3015_W3_S1_25_FINAL.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "MGMT3015_W3_S1_25_FINAL"
             }
           }
         ]
@@ -189,22 +169,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "768ac409abc5e8df",
+  "active": "c5f409b808144d0e",
   "lastOpenFiles": [
-    "COMP2400/Week 2/SQL Introduction.md",
+    "MGMT3005/Textbook.pdf",
+    "MGMT3005/Media/MGMT3015_W3_S1_25_FINAL.pdf",
+    "FINM2002/Media/Pasted image 20250304113644.png",
+    "COMP2400/Week 3/SQL (Part 3).md",
+    "COMP2400/Week 3/SQL (Part 2).md",
     "MGMT3005/Week 3/Lecture 3.md",
+    "COMP2400/Media/Week 3 SQL.pdf",
+    "COMP2400/Week 2/SQL Introduction.md",
     "MGMT3005/Week 2/Tutorial 1.md",
     "MGMT3005/Assignment 1/Overview.md",
     "MGMT3005/Week 2/Lecture 2.md",
     "MGMT3005/Week 1/Lecture 1.md",
     "COMP2400/Week 2/Lecture 2.md",
-    "MGMT3015_W3_S1_25_FINAL.pdf",
     "COMP2400/Week 2/Relational Data Model (pt. 2).md",
     "COMP2400/Week 2/Relational Data Model (pt. 1).md",
     "FINM2002/Week 3/Lecture 3.md",
     "FINM2002/Week 3/Workshop 3.md",
     "FINM2002/Media/Lecture 3 - Interest Rate Contracts and Swaps.pdf",
-    "Pasted image 20250304113644.png",
     "FINM2002/Media/Pasted image 20250304104736.png",
     "FINM2002/Media/Pasted image 20250304104300.png",
     "FINM2002/Media/Pasted image 20250304103318.png",
@@ -224,7 +208,6 @@
     "FINM2002/Week 2/Lecture 2.md",
     "FINM2002/Week 2/Lecture 2 Slides.pdf",
     "COMP2400/Media/w02l03_handout.pdf",
-    "COMP2400/Media/w02l01_handout.pdf",
     "Pasted image 20250301102539.png",
     "INFS1001/Media/Pasted image 20250227141831.png",
     "FINM2002/Week 1/Tutorial 1 Questions.md",
@@ -232,8 +215,6 @@
     "FINM2002/Week 1/Workshop 1 Notes.md",
     "INFS1001/Week 1/Lecture 1.md",
     "BMC.md",
-    "COMP2400/Week 1/Lecture 1.md",
-    "FINM2002/Week 0/Chapter 1 (Introduction).md",
     "COMP2400/Media/Pasted image 20250214121846.png",
     "COMP2400/Media/Pasted image 20250214124914.png"
   ]
