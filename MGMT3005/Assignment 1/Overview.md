@@ -44,3 +44,11 @@
 - **No late submissions allowed** (refer to Course Summary for special consideration policies).
 - **Backup your work** to prevent data loss (e.g., email drafts to yourself, use cloud storage).
 - **Potential use for research & teaching:** If you prefer your work _not_ to be used for future course examples, inform via email or a note on your submission.
+
+
+- 1 Internal and 1 external analysis (lecture 3)
+- SWOT analysis
+- Go into theoretical framework and application
+- No introduction is needed - a sentance
+	- "This report has been written on behalf of the CEO of lululemon"
+- Assumse you are writing it for the CEO< they know the company
