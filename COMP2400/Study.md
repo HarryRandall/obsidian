@@ -1,0 +1,2 @@
+- All of the constraints
+- Different joins

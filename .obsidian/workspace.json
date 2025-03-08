@@ -8,12 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "768ac409abc5e8df",
+            "id": "daf1fab6c8f38226",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "MGMT3005/Textbook.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Textbook"
+            }
+          },
+          {
+            "id": "a5b4efc4acf02c4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "FINM2002/Week 3/Workshop 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Workshop 3"
+            }
+          },
+          {
+            "id": "f961d4fb5371c479",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FINM2002/Week 3/Lecture 3.md",
                 "mode": "source",
                 "source": false
               },
@@ -21,7 +47,8 @@
               "title": "Lecture 3"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "MGMT3005/Week 3/Tutorial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 3"
+              "title": "Backlinks for Tutorial 2"
             }
           },
           {
@@ -113,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "MGMT3005/Week 3/Tutorial 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 3"
+              "title": "Outgoing links from Tutorial 2"
             }
           },
           {
@@ -142,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "MGMT3005/Week 3/Tutorial 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 3"
+              "title": "Outline of Tutorial 2"
             }
           }
         ],
@@ -169,53 +196,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5f409b808144d0e",
+  "active": "f961d4fb5371c479",
   "lastOpenFiles": [
+    "MGMT3005/Week 3/Lecture 3.md",
+    "FINM2002/Week 3/Workshop 3.md",
+    "FINM2002/Week 3/Lecture 3.md",
+    "MGMT3005/Week 3/Tutorial 2.md",
     "MGMT3005/Textbook.pdf",
+    "MGMT3005/Week 2/Lecture 2 Slides.pdf",
+    "MGMT3005/Week 2/Lecture 2.md",
+    "FINM2002/Week 2/Tutorial 2 Answers.md",
+    "MGMT3005/Week 2/Tutorial 1.md",
+    "FINM2002/Week 2/Lecture 2.md",
+    "FINM2002/Week 2/Lecture 2 Slides.pdf",
+    "COMP2400/Week 3/Lecture 3.md",
+    "COMP2400/Study.md",
+    "COMP2400/Media/W3 Lecture Slides.pdf",
+    "INFS1001/Week 3/Tutorial 3.md",
+    "INFS1001/Media/INFS1001 Deck Week 3.pdf",
+    "INFS1001/Media/Pasted image 20250306141217.png",
+    "INFS1001/Week 3/Lecture 3.md",
+    "INFS1001/Media/INFS1001 Tutorial Week 3.pdf",
     "MGMT3005/Media/MGMT3015_W3_S1_25_FINAL.pdf",
     "FINM2002/Media/Pasted image 20250304113644.png",
     "COMP2400/Week 3/SQL (Part 3).md",
     "COMP2400/Week 3/SQL (Part 2).md",
-    "MGMT3005/Week 3/Lecture 3.md",
     "COMP2400/Media/Week 3 SQL.pdf",
     "COMP2400/Week 2/SQL Introduction.md",
-    "MGMT3005/Week 2/Tutorial 1.md",
     "MGMT3005/Assignment 1/Overview.md",
-    "MGMT3005/Week 2/Lecture 2.md",
     "MGMT3005/Week 1/Lecture 1.md",
     "COMP2400/Week 2/Lecture 2.md",
     "COMP2400/Week 2/Relational Data Model (pt. 2).md",
     "COMP2400/Week 2/Relational Data Model (pt. 1).md",
-    "FINM2002/Week 3/Lecture 3.md",
-    "FINM2002/Week 3/Workshop 3.md",
     "FINM2002/Media/Lecture 3 - Interest Rate Contracts and Swaps.pdf",
     "FINM2002/Media/Pasted image 20250304104736.png",
     "FINM2002/Media/Pasted image 20250304104300.png",
     "FINM2002/Media/Pasted image 20250304103318.png",
     "FINM2002/Media/Pasted image 20250304103206.png",
     "FINM2002/Media/Pasted image 20250304101041.png",
-    "INFS1001/Week 3/Lecture 3.md",
-    "INFS1001/Media/INFS1001 Deck Week 3.pdf",
     "FINM2002/Media/Workshop 3.pdf",
-    "COMP2400/Media/w02l02_handout.pdf",
     "INFS1001/Bar Assignment/Overview.md",
-    "MGMT3005/Assignment 1",
     "INFS1001/Week 2/Tutorial 1.md",
-    "INFS1001/Week 2/INFS1001 Deck Week 2.pptx.pdf",
     "INFS1001/Week 2/Lecture 2.md",
     "MGMT3005/Group Assignment/Journal Entries.md",
-    "FINM2002/Week 2/Tutorial 2.md",
-    "FINM2002/Week 2/Lecture 2.md",
-    "FINM2002/Week 2/Lecture 2 Slides.pdf",
-    "COMP2400/Media/w02l03_handout.pdf",
     "Pasted image 20250301102539.png",
     "INFS1001/Media/Pasted image 20250227141831.png",
     "FINM2002/Week 1/Tutorial 1 Questions.md",
-    "FINM2002/Week 1/Lecture 1 Notes.md",
-    "FINM2002/Week 1/Workshop 1 Notes.md",
-    "INFS1001/Week 1/Lecture 1.md",
-    "BMC.md",
-    "COMP2400/Media/Pasted image 20250214121846.png",
-    "COMP2400/Media/Pasted image 20250214124914.png"
+    "COMP2400/Media/Pasted image 20250214121846.png"
   ]
 }
