@@ -4,51 +4,69 @@
     "type": "split",
     "children": [
       {
-        "id": "c46baaa51aeadc74",
+        "id": "c53d946b12f7f80f",
         "type": "tabs",
         "children": [
           {
-            "id": "daf1fab6c8f38226",
+            "id": "71b11b0733c568e9",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "MGMT3005/Textbook.pdf"
+                "file": "MGMT3005/Week 1/Lecture 1 Slides.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Textbook"
+              "title": "Lecture 1 Slides"
             }
           },
           {
-            "id": "a5b4efc4acf02c4f",
+            "id": "1a988a159d95c020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FINM2002/Week 3/Workshop 3.md",
+                "file": "MGMT3005/Week 2/Lecture 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Workshop 3"
+              "title": "Lecture 2"
             }
           },
           {
-            "id": "f961d4fb5371c479",
+            "id": "91b36fa37e5057a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FINM2002/Week 3/Lecture 3.md",
+                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 3"
+              "title": "Entity-Relationship Model – Part 1"
             }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "3ca02815b8781ed3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4074492a75b7ef9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "COMP2400/Media/w04l01.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "w04l01"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGMT3005/Week 3/Tutorial 2.md",
+                "file": "MGMT3005/Week 3/Lecture 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tutorial 2"
+              "title": "Backlinks for Lecture 3"
             }
           },
           {
@@ -140,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGMT3005/Week 3/Tutorial 2.md",
+                "file": "MGMT3005/Week 3/Lecture 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Tutorial 2"
+              "title": "Outgoing links from Lecture 3"
             }
           },
           {
@@ -169,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MGMT3005/Week 3/Tutorial 2.md",
+                "file": "MGMT3005/Week 3/Lecture 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tutorial 2"
+              "title": "Outline of Lecture 3"
             }
           }
         ],
@@ -196,52 +214,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f961d4fb5371c479",
+  "active": "91b36fa37e5057a9",
   "lastOpenFiles": [
-    "MGMT3005/Week 3/Lecture 3.md",
-    "FINM2002/Week 3/Workshop 3.md",
-    "FINM2002/Week 3/Lecture 3.md",
-    "MGMT3005/Week 3/Tutorial 2.md",
+    "COMP2400/Media/w04l01.pdf",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
+    "MGMT3005/Assignment 1/Untitled.md",
+    "MGMT3005/Tutorials.md",
     "MGMT3005/Textbook.pdf",
-    "MGMT3005/Week 2/Lecture 2 Slides.pdf",
+    "MGMT3005/Assignment 1/Overview.md",
+    "MGMT3005/Week 1/Lecture 1 Slides.pdf",
     "MGMT3005/Week 2/Lecture 2.md",
-    "FINM2002/Week 2/Tutorial 2 Answers.md",
-    "MGMT3005/Week 2/Tutorial 1.md",
-    "FINM2002/Week 2/Lecture 2.md",
-    "FINM2002/Week 2/Lecture 2 Slides.pdf",
-    "COMP2400/Week 3/Lecture 3.md",
+    "MGMT3005/Week 1/Lecture 1.md",
+    "MGMT3005/Week 2/Lecture 2 Slides.pdf",
+    "MGMT3005/Week 3/Lecture 3.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 2.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 4.md",
     "COMP2400/Study.md",
-    "COMP2400/Media/W3 Lecture Slides.pdf",
+    "COMP2400/Media/w04l02_er_modelling_concepts.pdf",
+    "COMP2400/Media/Entity-relationship Model (Part 3).pdf",
+    "COMP2400/Media/Entity-relationship Model (Part 4).pdf",
+    "COMP2400/Week 4",
+    "MGMT3005/Group Assignment/Journal Entries.md",
+    "MGMT3005/Week 3/Tutorial 2.md",
     "INFS1001/Week 3/Tutorial 3.md",
-    "INFS1001/Media/INFS1001 Deck Week 3.pdf",
     "INFS1001/Media/Pasted image 20250306141217.png",
-    "INFS1001/Week 3/Lecture 3.md",
     "INFS1001/Media/INFS1001 Tutorial Week 3.pdf",
-    "MGMT3005/Media/MGMT3015_W3_S1_25_FINAL.pdf",
+    "FINM2002/Week 2/Tutorial 2 Answers.md",
+    "COMP2400/Week 3/Lecture 3.md",
+    "COMP2400/Media/W3 Lecture Slides.pdf",
     "FINM2002/Media/Pasted image 20250304113644.png",
     "COMP2400/Week 3/SQL (Part 3).md",
     "COMP2400/Week 3/SQL (Part 2).md",
-    "COMP2400/Media/Week 3 SQL.pdf",
     "COMP2400/Week 2/SQL Introduction.md",
-    "MGMT3005/Assignment 1/Overview.md",
-    "MGMT3005/Week 1/Lecture 1.md",
+    "MGMT3005/Week 2/Tutorial 1.md",
     "COMP2400/Week 2/Lecture 2.md",
     "COMP2400/Week 2/Relational Data Model (pt. 2).md",
     "COMP2400/Week 2/Relational Data Model (pt. 1).md",
-    "FINM2002/Media/Lecture 3 - Interest Rate Contracts and Swaps.pdf",
+    "FINM2002/Week 3/Lecture 3.md",
+    "FINM2002/Week 3/Workshop 3.md",
     "FINM2002/Media/Pasted image 20250304104736.png",
     "FINM2002/Media/Pasted image 20250304104300.png",
     "FINM2002/Media/Pasted image 20250304103318.png",
     "FINM2002/Media/Pasted image 20250304103206.png",
     "FINM2002/Media/Pasted image 20250304101041.png",
-    "FINM2002/Media/Workshop 3.pdf",
-    "INFS1001/Bar Assignment/Overview.md",
-    "INFS1001/Week 2/Tutorial 1.md",
-    "INFS1001/Week 2/Lecture 2.md",
-    "MGMT3005/Group Assignment/Journal Entries.md",
     "Pasted image 20250301102539.png",
     "INFS1001/Media/Pasted image 20250227141831.png",
-    "FINM2002/Week 1/Tutorial 1 Questions.md",
     "COMP2400/Media/Pasted image 20250214121846.png"
   ]
 }
