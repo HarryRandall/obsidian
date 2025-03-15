@@ -4,66 +4,82 @@
     "type": "split",
     "children": [
       {
-        "id": "c53d946b12f7f80f",
+        "id": "f691f15575c67081",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "71b11b0733c568e9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MGMT3005/Week 1/Lecture 1 Slides.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Lecture 1 Slides"
-            }
-          },
-          {
-            "id": "1a988a159d95c020",
+            "id": "a0f5cef2ae9595d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGMT3005/Week 2/Lecture 2.md",
+                "file": "INFS1001/Week 4/Tutorial 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 2"
+              "title": "Tutorial 4"
             }
           },
           {
-            "id": "91b36fa37e5057a9",
+            "id": "152d6e8b4099fb70",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "MGMT3005/Media/Pasted image 20250312103720.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250312103720"
+            }
+          },
+          {
+            "id": "c30e6303c64b5ce4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
+                "file": "ToDo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entity-Relationship Model – Part 1"
+              "title": "ToDo"
+            }
+          },
+          {
+            "id": "5b94c3f49ad3a27c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFS1001/Week 4/Tutorial 4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial 4"
             }
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "3ca02815b8781ed3",
+        "id": "dd9e88c75430a63b",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
-            "id": "e4074492a75b7ef9",
+            "id": "531b467bac88715f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "COMP2400/Media/w04l01.pdf"
+                "file": "COMP2400/Week 4/Relational_Database_W4.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "w04l01"
+              "title": "Relational_Database_W4"
             }
           }
         ]
@@ -139,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "MGMT3005/Week 3/Tutorial 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +165,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 3"
+              "title": "Backlinks for Tutorial 2"
             }
           },
           {
@@ -158,12 +174,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "MGMT3005/Week 3/Tutorial 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 3"
+              "title": "Outgoing links from Tutorial 2"
             }
           },
           {
@@ -187,13 +203,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MGMT3005/Week 3/Lecture 3.md",
+                "file": "ToDo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 3"
+              "title": "Outline of ToDo"
             }
           }
         ],
@@ -214,52 +230,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91b36fa37e5057a9",
+  "active": "c30e6303c64b5ce4",
   "lastOpenFiles": [
-    "COMP2400/Media/w04l01.pdf",
-    "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
-    "MGMT3005/Assignment 1/Untitled.md",
+    "FINM2002/Week 4/Lecture 4.md",
+    "FINM2002/Week 4/Week 4 Slides.pdf",
+    "ToDo.md",
+    "MGMT3005/Media/Pasted image 20250312103720.png",
+    "MGMT3005/Media/Pasted image 20250312103230.png",
+    "COMP2400/Week 4/Week 4 Slides.md",
+    "COMP2400/Week 4/Relational_Database_W4.pdf",
+    "INFS1001/Week 4/Tutorial 4.md",
+    "INFS1001/Week 4/Lecture 4.md",
+    "MGMT3005/Week 4/Lecture 4.md",
+    "INFS1001/Week 4/INFS1001 Tutorial Week 4.pdf",
+    "MGMT3005/Week 4/Slides - 4.pdf",
+    "COMP2400/Week 4/lab_3/Lab3.pdf",
+    "COMP2400/Week 4/lab_3/Lab 3 Notes.md",
+    "MGMT3005/Week 4",
+    "FINM2002/Week 4/Workshop 4.md",
+    "COMP2400/Week 4/lab_3/employeeCreate.sql",
+    "COMP2400/Week 4/lab_3",
+    "FINM2002/Media/Workshop 4.pdf",
+    "FINM2002/Media/Lecture 4 - Options Basics.pdf",
+    "FINM2002/Media/Pasted image 20250311101920.png",
+    "FINM2002/Media/Pasted image 20250311101908.png",
+    "INFS1001/Week 3/Lecture 3.md",
+    "INFS1001/Bar Assignment/Overview.md",
     "MGMT3005/Tutorials.md",
-    "MGMT3005/Textbook.pdf",
-    "MGMT3005/Assignment 1/Overview.md",
-    "MGMT3005/Week 1/Lecture 1 Slides.pdf",
-    "MGMT3005/Week 2/Lecture 2.md",
-    "MGMT3005/Week 1/Lecture 1.md",
-    "MGMT3005/Week 2/Lecture 2 Slides.pdf",
-    "MGMT3005/Week 3/Lecture 3.md",
+    "MGMT3005/Assignment 1/Untitled.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 4.md",
     "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
     "COMP2400/Week 4/Entity-Relationship Model – Part 2.md",
-    "COMP2400/Week 4/Entity-Relationship Model – Part 4.md",
-    "COMP2400/Study.md",
-    "COMP2400/Media/w04l02_er_modelling_concepts.pdf",
-    "COMP2400/Media/Entity-relationship Model (Part 3).pdf",
-    "COMP2400/Media/Entity-relationship Model (Part 4).pdf",
-    "COMP2400/Week 4",
-    "MGMT3005/Group Assignment/Journal Entries.md",
-    "MGMT3005/Week 3/Tutorial 2.md",
-    "INFS1001/Week 3/Tutorial 3.md",
-    "INFS1001/Media/Pasted image 20250306141217.png",
-    "INFS1001/Media/INFS1001 Tutorial Week 3.pdf",
-    "FINM2002/Week 2/Tutorial 2 Answers.md",
-    "COMP2400/Week 3/Lecture 3.md",
-    "COMP2400/Media/W3 Lecture Slides.pdf",
-    "FINM2002/Media/Pasted image 20250304113644.png",
-    "COMP2400/Week 3/SQL (Part 3).md",
-    "COMP2400/Week 3/SQL (Part 2).md",
-    "COMP2400/Week 2/SQL Introduction.md",
-    "MGMT3005/Week 2/Tutorial 1.md",
-    "COMP2400/Week 2/Lecture 2.md",
-    "COMP2400/Week 2/Relational Data Model (pt. 2).md",
-    "COMP2400/Week 2/Relational Data Model (pt. 1).md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
     "FINM2002/Week 3/Lecture 3.md",
+    "MGMT3005/Week 3/Lecture 3.md",
     "FINM2002/Week 3/Workshop 3.md",
+    "MGMT3005/Week 3/Tutorial 2.md",
+    "MGMT3005/Week 2/Lecture 2.md",
+    "FINM2002/Week 2/Tutorial 2 Answers.md",
+    "MGMT3005/Week 2/Tutorial 1.md",
+    "FINM2002/Week 2/Lecture 2.md",
+    "COMP2400/Week 3/Lecture 3.md",
+    "INFS1001/Media/Pasted image 20250306141217.png",
+    "FINM2002/Media/Pasted image 20250304113644.png",
     "FINM2002/Media/Pasted image 20250304104736.png",
     "FINM2002/Media/Pasted image 20250304104300.png",
     "FINM2002/Media/Pasted image 20250304103318.png",
-    "FINM2002/Media/Pasted image 20250304103206.png",
-    "FINM2002/Media/Pasted image 20250304101041.png",
-    "Pasted image 20250301102539.png",
-    "INFS1001/Media/Pasted image 20250227141831.png",
-    "COMP2400/Media/Pasted image 20250214121846.png"
+    "FINM2002/Media/Pasted image 20250304103206.png"
   ]
 }
