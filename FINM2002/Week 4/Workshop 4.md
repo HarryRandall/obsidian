@@ -13,4 +13,4 @@ $$c_{min} = max(S_0-Xe^{-rT}, 0) = 20 - 18e^{-10\% \times 1} = \$3.71$$
 - The current option price ($c = \$3$) is smaller than the lower bound
 - Therefore arbitrage opportunity exists
 - "Buy cheap and short expensive"
-- 
+-   
