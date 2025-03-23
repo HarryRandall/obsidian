@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "4922f02a36d2a247",
+    "type": "split",
+    "children": [
+      {
+        "id": "37ad521c6be787b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e048b836cc9756ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Entity-Relationship Model – Part 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e35ea184052f93a",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa61d0621f91f2e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c362f2c4a24e1668",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c1fc611609ef1db6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a85871a3c592149e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "94e00fa8eeba029c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fb4ad268ab7215f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58538e5d1e2e3449",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Entity-Relationship Model – Part 3"
+            }
+          },
+          {
+            "id": "cb3c3b31b7903764",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Entity-Relationship Model – Part 3"
+            }
+          },
+          {
+            "id": "fa5f98d6d407eaf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f7944507b3fa0f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Entity-Relationship Model – Part 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c362f2c4a24e1668",
+  "lastOpenFiles": [
+    "COMP2400/Ass_1/myqueries.sql",
+    "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf",
+    "COMP2400/Ass_1/sample.pdf",
+    "COMP2400/Ass_1",
+    "COMP2400/New folder",
+    "COMP2400/Study.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 2.md",
+    "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",
+    "COMP2400/Assignment 1/comp2400_6240_S2_2025_assn1.pdf",
+    "COMP2400/Assignment 1/sample.pdf",
+    "COMP2400/Assignment 1/myqueries.sql",
+    "COMP2400/Assignment 1",
+    "COMP2400/Media/Entity-relationship Model (Part 3).pdf",
+    "COMP2400/Media/w04l02_er_modelling_concepts.pdf",
+    "COMP2400/Media/Pasted image 20250323102615.png",
+    "COMP2400/Media/Pasted image 20250323102548.png",
+    "COMP2400/Media/Pasted image 20250323102436.png",
+    "COMP2400/Media/Pasted image 20250323102354.png",
+    "COMP2400/Media/Pasted image 20250323100915.png",
+    "COMP2400/Media/Pasted image 20250315143537.png",
+    "COMP2400/Media/Pasted image 20250315143638.png",
+    "COMP2400/Media/Pasted image 20250323100452.png"
+  ]
+}
