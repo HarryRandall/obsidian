@@ -7,7 +7,7 @@
 	- Need to remember the design of the Business Model Canvas 
 ![[Pasted image 20250227141831.png]]
 
-2. Why should we care about System Modelling?
+2. **Why should we care about System Modelling?**
 	- To describe a system
 	- To describe the technical details
 	- To communicate with executive management
@@ -15,7 +15,7 @@
 		- Even if you're not an IT person, understanding how to use some of these models enables you to have informed conversations with your IT colleagues.
 	- We want to understand how organisations use information systems.
 	- Assess whether an is getting the most out of their technology.
-3. How can you use a rich picture?
+3. **How can you use a rich picture?**
 	- It helps people to visualise and discuss their own role in the organisation
 	- It can be used to define the aspects of the organisation which are intended to be covered by the information system
 	- It can be used to show up the worries of individuals, potential conflicts, and political issues
