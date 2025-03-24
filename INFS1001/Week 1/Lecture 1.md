@@ -113,4 +113,4 @@ Course Structure
 	- How does technology fit within the organisation? Is this understood within the organisation?
 	- Is the organisation deriving business value from its technology?
 	- Does technology align with the organisations business strategy?
-	- How does technology support its operating environment
+	- How does technology support its operating environment 
