@@ -114,3 +114,14 @@ Course Structure
 	- Is the organisation deriving business value from its technology?
 	- Does technology align with the organisations business strategy?
 	- How does technology support its operating environment 
+	- Is technology being managed effectively and efficiently?
+- Systems modelling helps us describe an organisation's use of technology and helps us answer these questions.
+
+#### The Rich Picture
+- We are accustomed to communicating through written and spoken word.
+- Using pictures and graphics provides a different approach and encourages collaboration.
+- The rich picture is useful because
+	- It helps people to visualise and discuss their own role in the organisation
+	- It can be used to define the aspects of the organisation which are intended to be covered by the information system.
+	- It can be used to show up the worries of individuals, potential conflicts, and political issues.
+	- Lack of space on the paper forces decisions on what is really important.
