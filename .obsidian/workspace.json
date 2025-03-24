@@ -11,14 +11,12 @@
             "id": "e048b836cc9756ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "INFS1001/Week 2/Lecture 2.md",
-                "mode": "source",
-                "source": false
+                "file": "INFS1001/Week 5/INFS1001 Deck Week 5.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Lecture 2"
+              "icon": "lucide-file-text",
+              "title": "INFS1001 Deck Week 5"
             }
           }
         ]
@@ -28,15 +26,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "261fbe2c487ab1f9",
+            "id": "5d841bdb8589f075",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "INFS1001/Week 2/INFS1001 Deck Week 2.pptx.pdf"
+                "file": "INFS1001/Media/INFS1001 Deck Week 3.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "INFS1001 Deck Week 2.pptx"
+              "title": "INFS1001 Deck Week 3"
             }
           }
         ]
@@ -186,15 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "261fbe2c487ab1f9",
+  "active": "e048b836cc9756ed",
   "lastOpenFiles": [
+    "INFS1001/Week 5/Lecture 5.md",
+    "INFS1001/Week 5/INFS1001 Deck Week 5.pdf",
+    "INFS1001/Week 4/Lecture 4.md",
+    "INFS1001/Week 3/Lecture 3.md",
+    "INFS1001/Media/INFS1001 Deck Week 3.pdf",
     "INFS1001/Week 2/Lecture 2.md",
     "INFS1001/Week 2/INFS1001 Deck Week 2.pptx.pdf",
     "INFS1001/Week 1/INFS1001 Deck Week 1.pdf",
-    "INFS1001/Week 2/Tutorial 1.md",
     "INFS1001/Week 1/Lecture 1.md",
-    "INFS1001/Week 5/INFS1001 Deck Week 5.pdf",
-    "INFS1001/Week 5/Lecture 5.md",
+    "INFS1001/Week 2/Tutorial 1.md",
     "INFS1001/Week 4/Week 4 Slides.pdf",
     "INFS1001/Week 4/INFS1001 Tutorial Week 4.pdf",
     "COMP2400/Week 4/Entity-Relationship Model – Part 3.md",
@@ -202,7 +203,6 @@
     "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf",
     "COMP2400/Ass_1/sample.pdf",
     "COMP2400/Ass_1",
-    "COMP2400/New folder",
     "COMP2400/Study.md",
     "COMP2400/Week 4/Entity-Relationship Model – Part 2.md",
     "COMP2400/Week 4/Entity-Relationship Model – Part 1.md",

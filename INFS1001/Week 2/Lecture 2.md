@@ -11,13 +11,13 @@
 
 #### Social Media Strategy
 - Helps us to establish our personal brands as we post to friends, family, communities and, potentially, complete strangers.
-- Emplyers use Social media to evaluate potential candidates and it should be assumed that the data you post on any site is going to be available forever.
+- Employers use Social media to evaluate potential candidates and it should be assumed that the data you post on any site is going to be available forever.
 
 #### Digital Strategy
 - Organisations view and develop technology strategies from many different perspectives depending on the need.
 - To drive value from technology there is often an overarching Information System strategy with linkages to "sub-strategies".
 - Note that organisations develop strategies in many ways.
-- In this course, we'll view Information Systems as an overarching strategy leading into Social Media and Digital Transormation.
+- In this course, we'll view Information Systems as an overarching strategy leading into Social Media and Digital Transformation.
 - In practice, there's significant overlap however, it's useful to examine each individually so we understand the relevant components of each.
 - This way, when combined, we make sure we haven't missed anything.
 
