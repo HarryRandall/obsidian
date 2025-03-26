@@ -11,12 +11,14 @@
             "id": "cd9aa1c2b514a9eb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf"
+                "file": "INFS1001/Bar Assignment/Overview.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "comp2400_6240_S2_2025_assn1"
+              "icon": "lucide-file",
+              "title": "Overview"
             }
           }
         ]
@@ -165,11 +167,11 @@
   },
   "active": "cd9aa1c2b514a9eb",
   "lastOpenFiles": [
+    "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf",
     "FINM2002/Week 6/Lecture 6.md",
     "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf",
     "FINM2002/Week 6",
     "INFS1001/Week 5/INFS1001 Deck Week 5.pdf",
-    "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf",
     "COMP2400/Ass_1/sample.pdf",
     "COMP2400/Ass_1/myqueries.sql",
     "COMP2400/Ass_1"
