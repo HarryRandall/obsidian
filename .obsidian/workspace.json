@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Overview"
             }
+          },
+          {
+            "id": "d695dc03c5a4aed5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Lecture 6 - Black Scholes Models for Pricing Options"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,15 +178,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cd9aa1c2b514a9eb",
+  "active": "9e5ea9d63bdc8675",
   "lastOpenFiles": [
-    "COMP2400/Ass_1/comp2400_6240_S2_2025_assn1.pdf",
-    "FINM2002/Week 6/Lecture 6.md",
-    "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf",
-    "FINM2002/Week 6",
-    "INFS1001/Week 5/INFS1001 Deck Week 5.pdf",
-    "COMP2400/Ass_1/sample.pdf",
-    "COMP2400/Ass_1/myqueries.sql",
-    "COMP2400/Ass_1"
+    "FINM2002/Week 6/Tutorial 6 Question.pdf",
+    "FINM2002/Week 5/Tutorial 5 Question.pdf",
+    "FINM2002/Week 4/Tutorial 4 Question.pdf",
+    "FINM2002/Week 3/Tutorial 3 Question.pdf",
+    "INFS1001/Week 6/Tutorial 6.md",
+    "COMP2400/Week 7/Lecture 1.pdf",
+    "COMP2400/Week 7/Lecture 2.pdf",
+    "COMP2400/Week 6/Lecture 2.pdf",
+    "COMP2400/Week 6/Lecture 3.pdf",
+    "COMP2400/Week 6/Lecture 1.pdf",
+    "COMP2400/Week 7",
+    "COMP2400/Week 6",
+    "INFS1001/Week 5/Lecture 5.md",
+    "INFS1001/Bar Assignment/Overview.md",
+    "FINM2002/Week 6/Lecture 6.md"
   ]
 }
