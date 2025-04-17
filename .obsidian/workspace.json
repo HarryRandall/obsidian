@@ -8,33 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd9aa1c2b514a9eb",
+            "id": "d695dc03c5a4aed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "INFS1001/Bar Assignment/Overview.md",
+                "file": "MGMT3005/Group Assignment/Journal Entries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "Journal Entries"
             }
           },
           {
-            "id": "d695dc03c5a4aed5",
+            "id": "b4119015f4591cc9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf"
+                "file": "MGMT3005/Assignment 2/Case Notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Lecture 6 - Black Scholes Models for Pricing Options"
+              "icon": "lucide-file",
+              "title": "Case Notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,8 +179,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e5ea9d63bdc8675",
+  "active": "d695dc03c5a4aed5",
   "lastOpenFiles": [
+    "MGMT3005/Tutorials.md",
+    "MGMT3005/Textbook.pdf",
+    "MGMT3005/Group Assignment/Journal Entries.md",
+    "MGMT3005/Assignment 2/Case Notes.md",
+    "FINM2002/Week 4/Lecture 4.md",
+    "ToDo.md",
+    "MGMT3005/Assignment 2",
+    "MGMT3005/Media/Pasted image 20250404131502.png",
+    "MGMT3005/Week 1/Lecture 1.md",
+    "MGMT3005/Assignment 1/Untitled.md",
+    "MGMT3005/Assignment 1/Overview.md",
+    "INFS1001/Bar Assignment/Overview.md",
+    "FINM2002/Week 3/Lecture 3.md",
+    "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf",
     "FINM2002/Week 6/Tutorial 6 Question.pdf",
     "FINM2002/Week 5/Tutorial 5 Question.pdf",
     "FINM2002/Week 4/Tutorial 4 Question.pdf",
@@ -188,12 +203,7 @@
     "COMP2400/Week 7/Lecture 1.pdf",
     "COMP2400/Week 7/Lecture 2.pdf",
     "COMP2400/Week 6/Lecture 2.pdf",
-    "COMP2400/Week 6/Lecture 3.pdf",
-    "COMP2400/Week 6/Lecture 1.pdf",
-    "COMP2400/Week 7",
-    "COMP2400/Week 6",
     "INFS1001/Week 5/Lecture 5.md",
-    "INFS1001/Bar Assignment/Overview.md",
     "FINM2002/Week 6/Lecture 6.md"
   ]
 }
