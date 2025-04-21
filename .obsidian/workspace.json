@@ -1,38 +1,24 @@
 {
   "main": {
-    "id": "d0d772e8d901b409",
+    "id": "f06a953e364cdd1e",
     "type": "split",
     "children": [
       {
-        "id": "996251c1c317f2c5",
+        "id": "6c60c2953fe80e42",
         "type": "tabs",
         "children": [
           {
-            "id": "d695dc03c5a4aed5",
+            "id": "e19c8b244bf76275",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGMT3005/Group Assignment/Journal Entries.md",
+                "file": "INFS1001/Week 8/Lecture 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Journal Entries"
-            }
-          },
-          {
-            "id": "b4119015f4591cc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MGMT3005/Assignment 2/Case Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Case Notes"
+              "title": "Lecture 8"
             }
           }
         ]
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "12ce77f89f0e3ed6",
+    "id": "658300d000f1434e",
     "type": "split",
     "children": [
       {
-        "id": "14f12f566731843f",
+        "id": "8b4a5f5adbc2a7d5",
         "type": "tabs",
         "children": [
           {
-            "id": "9e5ea9d63bdc8675",
+            "id": "773669849b4d6a7e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +48,7 @@
             }
           },
           {
-            "id": "43295d641bb46d60",
+            "id": "9feaa2878fa17537",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +65,7 @@
             }
           },
           {
-            "id": "6bf7fdf3a72139d1",
+            "id": "6ef094a7a9730403",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,19 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "3986a00142557401",
+    "id": "0608c4376a0f0ad0",
     "type": "split",
     "children": [
       {
-        "id": "0bc2b5470edb4051",
+        "id": "8f928416a88eca6c",
         "type": "tabs",
         "children": [
           {
-            "id": "39079983d63de3f0",
+            "id": "3bd66725f917d9bc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "INFS1001/Week 8/Lecture 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Lecture 8"
             }
           },
           {
-            "id": "a7db970b24ba6cdf",
+            "id": "48600249a207e669",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "INFS1001/Week 8/Lecture 8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Lecture 8"
             }
           },
           {
-            "id": "2d39f1f72be7243f",
+            "id": "7f8215f436919296",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,17 +137,18 @@
             }
           },
           {
-            "id": "4cc8a938e5bf92a5",
+            "id": "01fc2cfb9511faea",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "INFS1001/Week 8/Lecture 8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Lecture 8"
             }
           }
         ]
@@ -179,31 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d695dc03c5a4aed5",
+  "active": "e19c8b244bf76275",
   "lastOpenFiles": [
-    "MGMT3005/Tutorials.md",
-    "MGMT3005/Textbook.pdf",
-    "MGMT3005/Group Assignment/Journal Entries.md",
-    "MGMT3005/Assignment 2/Case Notes.md",
-    "FINM2002/Week 4/Lecture 4.md",
-    "ToDo.md",
-    "MGMT3005/Assignment 2",
-    "MGMT3005/Media/Pasted image 20250404131502.png",
-    "MGMT3005/Week 1/Lecture 1.md",
-    "MGMT3005/Assignment 1/Untitled.md",
-    "MGMT3005/Assignment 1/Overview.md",
-    "INFS1001/Bar Assignment/Overview.md",
-    "FINM2002/Week 3/Lecture 3.md",
-    "FINM2002/Week 6/Lecture 6 - Black Scholes Models for Pricing Options.pdf",
-    "FINM2002/Week 6/Tutorial 6 Question.pdf",
-    "FINM2002/Week 5/Tutorial 5 Question.pdf",
-    "FINM2002/Week 4/Tutorial 4 Question.pdf",
-    "FINM2002/Week 3/Tutorial 3 Question.pdf",
-    "INFS1001/Week 6/Tutorial 6.md",
-    "COMP2400/Week 7/Lecture 1.pdf",
-    "COMP2400/Week 7/Lecture 2.pdf",
-    "COMP2400/Week 6/Lecture 2.pdf",
-    "INFS1001/Week 5/Lecture 5.md",
-    "FINM2002/Week 6/Lecture 6.md"
+    "INFS1001/Week 8/Lecture 8.md",
+    "INFS1001 Deck Week 8.pdf",
+    "MGMT3005/Week 7/Tutorial 6.md",
+    "INFS1001/Week 8"
   ]
 }
