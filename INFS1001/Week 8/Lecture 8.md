@@ -31,3 +31,11 @@
 - High initial costs and ongoing maintenance expenses.
 - Complexity and significant time required for implementation.
 - Potential for resistance to change among employees and disruption to existing operations.
+
+---
+Revolutionary's -> Nabster
+Early Adopter -> Netflix
+Late Majority, Laggerds -> Blockbuster
+
+
+![[IMG_1613.heic]]
