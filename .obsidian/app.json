@@ -1,5 +1,8 @@
 {
   "promptDelete": false,
   "strictLineBreaks": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "998 Attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "000 Index"
 }

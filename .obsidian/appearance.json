@@ -1,5 +1,3 @@
 {
-  "enabledCssSnippets": [
-    "Table-centre"
-  ]
+  "cssTheme": "Obsidian gruvbox"
 }

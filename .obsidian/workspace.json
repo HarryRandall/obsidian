@@ -1,68 +1,56 @@
 {
   "main": {
-    "id": "f06a953e364cdd1e",
+    "id": "3549bb4d07dcade6",
     "type": "split",
     "children": [
       {
-        "id": "6c60c2953fe80e42",
+        "id": "c1ea40841cec759c",
         "type": "tabs",
         "children": [
           {
-            "id": "e19c8b244bf76275",
+            "id": "f7c056cc6f91900f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGMT3005/Week 7/Tutorial 6.md",
+                "file": "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 6"
+              "title": "Intro to Software Engineering"
             }
           },
           {
-            "id": "7b5c8bd5504da6da",
+            "id": "b76490dc5981d474",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MGMT3005/Week 7/Tutorial 6.md",
+                "file": "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial 6"
-            }
-          },
-          {
-            "id": "f8275a4e4bcb379e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "MGMT3005/Textbook.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Textbook"
+              "title": "3.1 DevOps"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "658300d000f1434e",
+    "id": "6026670157dac634",
     "type": "split",
     "children": [
       {
-        "id": "8b4a5f5adbc2a7d5",
+        "id": "87dbc54eac0434ee",
         "type": "tabs",
         "children": [
           {
-            "id": "773669849b4d6a7e",
+            "id": "e1958d63d10e4802",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -75,7 +63,7 @@
             }
           },
           {
-            "id": "9feaa2878fa17537",
+            "id": "848f3895283bd616",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,7 +80,7 @@
             }
           },
           {
-            "id": "6ef094a7a9730403",
+            "id": "af3f2486a2ca2098",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -108,20 +96,19 @@
     "width": 300
   },
   "right": {
-    "id": "0608c4376a0f0ad0",
+    "id": "c9b92f5f6c5209eb",
     "type": "split",
     "children": [
       {
-        "id": "8f928416a88eca6c",
+        "id": "f2d81004f7afc4dc",
         "type": "tabs",
         "children": [
           {
-            "id": "3bd66725f917d9bc",
+            "id": "4d7a70dbf6942336",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MGMT3005/Textbook.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,25 +118,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Textbook"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "48600249a207e669",
+            "id": "0913c6f45349d6eb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MGMT3005/Textbook.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Textbook"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "7f8215f436919296",
+            "id": "7dc7dd70fe7acc27",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,18 +150,17 @@
             }
           },
           {
-            "id": "01fc2cfb9511faea",
+            "id": "5eb5687d0612e0ec",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MGMT3005/Textbook.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Textbook"
+              "title": "Outline"
             }
           }
         ]
@@ -192,21 +177,48 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "f8275a4e4bcb379e",
+  "active": "e1958d63d10e4802",
   "lastOpenFiles": [
-    "INFS1001/Week 8/Tutorial 8.md",
-    "MGMT3005/Week 7/Tutorial 6.md",
-    "COMP2400/Week 8/Lab6.pdf",
-    "COMP2400/Week 8/Tutorial 7.md",
-    "MGMT3005/Textbook.pdf",
-    "INFS1001/Week 8/Lecture 8.md",
-    "IMG_1613.heic",
-    "INFS1001 Tutorial Week 8.pdf",
-    "COMP2400/Week 8",
-    "INFS1001/Media/INFS1001 Deck Week 8.pdf",
-    "INFS1001/Week 8"
+    "400 Projects/WebDev Notes",
+    "400 Projects/c++ Notes",
+    "400 Projects",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.2 Microservices.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.3 Open Source.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 4 Measurement and Improvement/4.1 Metrics.md",
+    "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 2 Team and Collaboration/2.2 Inspection.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 2 Team and Collaboration/2.1 Team Culture.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.4 Testing.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.3 Architecture.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.2 Agile.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 4 Measurement and Improvement",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.1 Requirements.md",
+    "999 Templates/Class Template.md",
+    "000 Index/Untitled 1.md",
+    "000 Index/Untitled 3.md",
+    "000 Index/Untitled 2.md",
+    "000 Index/Untitled 7.md",
+    "000 Index/Untitled 15.md",
+    "000 Index/Untitled 14.md",
+    "000 Index/Untitled 13.md",
+    "000 Index/Untitled 12.md",
+    "000 Index/Untitled 11.md",
+    "000 Index/Untitled 10.md",
+    "000 Index/Untitled 9.md",
+    "000 Index/Untitled 8.md",
+    "000 Index/Untitled 6.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 2 Team and Collaboration",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development",
+    "300 ANU Computing/Intro to Software Engineering",
+    "998 Attachments/Pasted image 20250716171324.png",
+    "200 ANU Finance/Regression Modelling/Chapter 1",
+    "200 ANU Finance/Corporate Valuation/Chapter 1",
+    "200 ANU Finance/Investments/Chapter 1"
   ]
 }
