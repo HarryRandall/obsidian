@@ -4,165 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c1ea40841cec759c",
+        "id": "7e1df0d8dbf60265",
         "type": "tabs",
         "children": [
           {
-            "id": "f7c056cc6f91900f",
+            "id": "121ea70c39596345",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
+                "file": "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro to Software Engineering"
-            }
-          },
-          {
-            "id": "b76490dc5981d474",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.1 DevOps"
-            }
-          },
-          {
-            "id": "f8e84a9b9a77d51f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "500 Sprintlaw/Processes/All Proccesses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "All Proccesses"
-            }
-          },
-          {
-            "id": "4fbe899fbb5d5750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "000 Index/placeholder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "placeholder"
-            }
-          },
-          {
-            "id": "39655648b1af8c7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 Notes/placeholder 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "placeholder 2"
-            }
-          },
-          {
-            "id": "a2b01b52cc49a053",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "998 Attachments/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "d665cedc78ca5976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400 Projects/c++ Notes/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "4c62e8bd3d510834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400 Projects/Ethical Hacking Notes/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "2fb523c1ab0f6d2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400 Projects/Neural Network Notes/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "979fb179267b7f41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "400 Projects/python Notes/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
-            }
-          },
-          {
-            "id": "1b1529d1a90db8a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 ANU Finance/Corporate Valuation/FINM3005 - Corporate Valuation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FINM3005 - Corporate Valuation"
+              "title": "1.1 Introduction to Regression Modelling"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -307,44 +166,48 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e1958d63d10e4802",
+  "active": "121ea70c39596345",
   "lastOpenFiles": [
-    "400 Projects/Rust Notes/test.md",
+    "200 ANU Finance/Regression Modelling/STAT2008 - Regression Modelling.md",
+    "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
+    "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
+    "998 Attachments/Pasted image 20250722124604.png",
+    "998 Attachments/Pasted image 20250722124441.png",
+    "200 ANU Finance/Investments/FINM3011 - Investments.md",
+    "998 Attachments/Pasted image 20250722115159.png",
+    "000 Index/Risk and Return.md",
+    "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
+    "300 ANU Computing/Theoretical Computer Science/Chapter 1 Boolean Logic/1.1 Boolean Algebra.md",
+    "998 Attachments/Pasted image 20250720130406.png",
+    "000 Index/Untitled.md",
+    "998 Attachments/test.md",
+    "998 Attachments",
     "400 Projects/python Notes/test.md",
+    "400 Projects/c++ Notes/test.md",
+    "400 Projects/Rust Notes/test.md",
     "400 Projects/Neural Network Notes/test.md",
     "400 Projects/Ethical Hacking Notes/test.md",
-    "400 Projects/c++ Notes/test.md",
-    "998 Attachments/test.md",
-    "100 Notes/placeholder 2.md",
-    "000 Index/placeholder.md",
-    "500 Sprintlaw/Processes/All Proccesses.md",
-    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
-    "500 Sprintlaw/Processes",
-    "500 Sprintlaw",
-    "998 Attachments/Pasted image 20250716171324.png",
-    "000 Index/Untitled 1.md",
+    "400 Projects/python Notes",
+    "400 Projects/c++ Notes",
+    "400 Projects/Rust Notes",
     "400 Projects/Neural Network Notes",
     "400 Projects/Ethical Hacking Notes",
-    "400 Projects/Rust Notes",
-    "400 Projects/python Notes",
-    "400 Projects/WebDev Notes",
-    "400 Projects/c++ Notes",
     "400 Projects",
+    "100 Notes/placeholder 2.md",
+    "100 Notes",
+    "000 Index/placeholder.md",
+    "000 Index",
+    "Untitled.md",
+    "500 Sprintlaw/Processes/All Proccesses.md",
+    "500 Sprintlaw/Processes",
+    "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.2 Microservices.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.3 Open Source.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 4 Measurement and Improvement/4.1 Metrics.md",
-    "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 2 Team and Collaboration/2.2 Inspection.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 2 Team and Collaboration/2.1 Team Culture.md",
     "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.4 Testing.md",
-    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.3 Architecture.md",
-    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.2 Agile.md",
-    "300 ANU Computing/Intro to Software Engineering/Chapter 4 Measurement and Improvement",
-    "300 ANU Computing/Intro to Software Engineering/Chapter 1 Foundations of Software Development/1.1 Requirements.md",
-    "999 Templates/Class Template.md",
-    "000 Index/Untitled 3.md",
-    "000 Index/Untitled 2.md",
-    "000 Index/Untitled 7.md",
-    "000 Index/Untitled 15.md"
+    "998 Attachments/Pasted image 20250716171324.png"
   ]
 }
