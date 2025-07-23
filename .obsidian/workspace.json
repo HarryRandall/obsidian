@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c4cbf969eecfcdf7",
+            "id": "121ea70c39596345",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300 ANU Computing/Theoretical Computer Science/Dafny/Dafny Introduction.md",
+                "file": "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dafny Introduction"
+              "title": "COMP1600 - Theoretical Computer Science"
+            }
+          },
+          {
+            "id": "9b5a89758fbc1288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1 Introduction to Regression Modelling"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,35 +181,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c4cbf969eecfcdf7",
+  "active": "9b5a89758fbc1288",
   "lastOpenFiles": [
-    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.1 Propositional Logic.md",
-    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1 (Week 1).md",
+    "gitignore",
+    "hello",
+    "untitled folder",
+    "998 Attachments/Pasted image 20250723174815.png",
     "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
-    "300 ANU Computing/Theoretical Computer Science/Dafny/Dafny Introduction.md",
-    "998 Attachments/test.md",
-    "000 Index/Dafny.md",
-    "300 ANU Computing/Theoretical Computer Science/Dafny",
-    "000 Index/Tutorial 1.md",
-    "999 Templates/ChatGPT Template.md",
-    "999 Templates/Class Template.md",
-    "300 ANU Computing/Theoretical Computer Science/Tutorials",
-    "200 ANU Finance/Investments/FINM3011 - Investments.md",
-    "100 Notes/placeholder 2.md",
-    "400 Projects/c++ Notes/OpenGL/OpenGL.md",
-    "000 Index/placeholder.md",
-    "000 Index/Risk and Return.md",
-    "200 ANU Finance/Regression Modelling/STAT2008 - Regression Modelling.md",
-    "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
     "200 ANU Finance/Corporate Valuation/FINM3005 - Corporate Valuation.md",
+    "200 ANU Finance/Investments/FINM3011 - Investments.md",
+    "200 ANU Finance/Regression Modelling/STAT2008 - Regression Modelling.md",
     "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
+    "998 Attachments/Pasted image 20250723123716.png",
+    "000 Index/Propositional Logic.md",
+    "000 Index/Risk and Return.md",
+    "000 Index/OpenGL.md",
     "400 Projects/c++ Notes/test.md",
     "400 Projects/c++ Notes",
+    "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
     "998 Attachments/Pasted image 20250722124604.png",
     "998 Attachments/Pasted image 20250722124441.png",
     "998 Attachments/Pasted image 20250722115159.png",
     "300 ANU Computing/Intro to Software Engineering/Intro to Software Engineering.md",
+    "300 ANU Computing/Theoretical Computer Science/Chapter 1 Boolean Logic/1.1 Boolean Algebra.md",
     "998 Attachments/Pasted image 20250720130406.png",
+    "000 Index/Untitled.md",
+    "998 Attachments/test.md",
     "998 Attachments",
     "400 Projects/python Notes/test.md",
     "400 Projects/Rust Notes/test.md",
@@ -205,9 +217,14 @@
     "400 Projects/Neural Network Notes",
     "400 Projects/Ethical Hacking Notes",
     "400 Projects",
+    "100 Notes/placeholder 2.md",
     "100 Notes",
+    "000 Index/placeholder.md",
     "Untitled.md",
     "500 Sprintlaw/Processes/All Proccesses.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.1 DevOps.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.2 Microservices.md",
+    "300 ANU Computing/Intro to Software Engineering/Chapter 3 Modern Development Practices/3.3 Open Source.md",
     "998 Attachments/Pasted image 20250716171324.png"
   ]
 }
