@@ -1,3 +1,5 @@
+### Course Summary
+
 Week 1: [[1.1 Introduction to Regression Modelling]]
 Week 2: Parameter interpretation and estimation. Properties of least squares estimators.
 Week 3: ANOVA. Inference concerning coefficients.
@@ -12,14 +14,22 @@ Week 11: Model selection and criteria for comparing models.
 Week 12: Course review
 
 ---
+### Assessments
 
-Assessment items:
-Quiz: Open Monday morning -> Friday night (released week 4, 2.5 weeks to complete)
-Written Assignments: Uses RStudio, and write a report based upon analysis. Submitted on the Friday of those weeks BY 5pm.
-
-First assignments, covers material up and until end of week 4 (what is covered in class). Group report
-
-Seconds Assignments, covers material up and until end of week 9. (available in week 8, 2.5 weeks to complete.) INDIVIDUAL, written report
-
-Assignment 1 is a group assignment (3-4 students, enrolled in the same tutorial that I am in). In week 6 tutorial, we are going to present the assignment and the analysis / findings (short presentation), present in the tutorial.
-
+##### Assessment Item 1 (Quiz, 5%)
+- Due in Week 5 (18 August - 22 August)
+- Opens Monday morning, closes Friday night (5pm)
+- Released in week 4
+- Written Assignments: Uses RStudio, and write a report based upon analysis.
+##### Assessment Item 2 (Assignment, 10%)
+- Covers material up until end of week 4
+- Group assignment on R Studio
+- 3-4 students, randomly allocated from tutorials.
+- Present the findings in front of our tutorial, short presentation.
+- Must go to the tutorial to get marks
+##### Assessment Item 3 (Assignment, 10%)
+- Individual Assignment
+- Covers material up until week 9.
+- Individual, written report.
+##### Assessment Item 3 (Final Exam, 70%)
+- 2 hour final exam during Examination period
