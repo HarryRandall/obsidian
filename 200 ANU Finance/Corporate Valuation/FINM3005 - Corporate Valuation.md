@@ -1,0 +1,39 @@
+### Course Summary
+
+Week 1: [[1.1 Course overview & Valuation in context]] 
+Week 2: [[1.2 DCF valuation]]
+Week 3: Building a company model & Reorganising the financial statements
+Week 4: Forecasting and model integrity
+Week 5: Cost of capital
+Week 6: Incorporating growth potential
+Week 7: Multiple-based valuations
+Week 8: Asset-based valuations
+Week 9: Sensitivity and scenario analysis
+Week 10: Forming a recommendation
+Week 11: Special issues
+Week 12: Review
+
+---
+### Assessments
+##### Assessment Item 1 (Quiz, 5%)
+- Quiz in Week 5: online during workshop time  
+- Access via Canvas
+- Due in **Week 5**
+##### Assessment Item 2 (Quiz, 35%)
+- DCF valuation and multiples
+- Due in **Week 10**
+- Build company model, including all forecasts and assumptions  
+- Generate a DCF valuation  
+- Add multiple- or/and asset-based valuation to the model  
+- Write up of company outlook and investment recommendation
+
+##### Assessment Item 3 (Final Exam, 60%)
+- Lecture, workshop, tutorial, online quiz, practice questions, and assignment materials examinable  
+- Venue: in-person
+
+
+| Assignment | Weighting | Score / 100 | Weighted Score |
+| ---------- | --------- | ----------- | -------------- |
+| Quiz       | 5%        |             |                |
+| Assignment | 35%       |             |                |
+| Final Exam | 60%       |             |                |

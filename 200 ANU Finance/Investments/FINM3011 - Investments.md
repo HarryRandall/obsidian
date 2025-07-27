@@ -28,12 +28,12 @@ Week 12: Review
 ##### Assessment Item 3 (Group Assignment, 20%)
 - Due date: **Wednesday 15 Oct 2025**, by 5 pm (Week 11)  
 - 20% and is **NOT redeemable**  
-- Team formation: 3 − 4 students  
+- Team formation: 3 - 4 students
 - Please form groups ASAP before the end of Week 5  
 - You can use the forum to search for group members  
 - Group sign-up using Assignment Enrolment link on course website  
 - Don’t need to send emails about group information to the lecturer
-##### Assessment Item 3 (Final Exam, 60%)
+##### Assessment Item 4 (Final Exam, 60%)
 - On campus  
 - Three-hour long  
 - 60% of the overall course grade (70% or 80% if quizzes are  
