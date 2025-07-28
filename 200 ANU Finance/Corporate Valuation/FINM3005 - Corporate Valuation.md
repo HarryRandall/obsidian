@@ -31,7 +31,6 @@ Week 12: Review
 - Lecture, workshop, tutorial, online quiz, practice questions, and assignment materials examinable  
 - Venue: in-person
 
-
 | Assignment | Weighting | Score / 100 | Weighted Score |
 | ---------- | --------- | ----------- | -------------- |
 | Quiz       | 5%        |             |                |

@@ -23,10 +23,34 @@ $$
 determine which of the following formulae evaluate to **$T$** under $\sigma$.  
 Use truth tables to justify your answers.
 
-1. $(\lnot p \lor \lnot q)\;\lor\;\lnot(r \land q)$  
-2. $\lnot(\lnot p \lor \lnot q)\;\lor\;(p \lor \lnot r)$  
-3. $\lnot(p \lor \lnot q)\;\land\; r$  
-4. $\lnot\bigl(p \lor (\lnot q \land r)\bigr)$  
+1. $(\lnot p \lor \lnot q)\;\lor\;\lnot(r \land q)$ 
+
+| p   | q   | r   | $\neg p$ | $\neg q$ | $(\neg p \vee \neg q)$ | $(r \land q)$ | $\lnot(r \land q)$ | $(\lnot p \lor \lnot q)\;\lor\;\lnot(r \land q)$ |
+| --- | --- | --- | -------- | -------- | ---------------------- | ------------- | ------------------ | ------------------------------------------------ |
+| T   | T   | T   | F        | F        | F                      | T             | F                  | F                                                |
+| T   | F   | T   | F        | T        | T                      | F             | T                  | T                                                |
+| F   | T   | T   | T        | F        | T                      | T             | F                  | T                                                |
+| F   | F   | T   | T        | T        | T                      | F             | T                  | T                                                |
+| T   | T   | F   | F        | F        | F                      | F             | T                  | T                                                |
+| T   | F   | F   | F        | T        | T                      | F             | T                  | T                                                |
+| F   | T   | F   | T        | F        | T                      | F             | T                  | T                                                |
+| F   | F   | F   | T        | T        | T                      | F             | T                  | T                                                |
+
+2. $\lnot(\lnot p \lor \lnot q)\;\lor\;(p \lor \lnot r)$ 
+
+| p   | q   | r   | $\neg p$ | $\neg q$ | $\neg r$ | $(\lnot p \lor \lnot q)$ | $\lnot(\lnot p \lor \lnot q)$ | $(p \lor \lnot r)$ | $\lnot(\lnot p \lor \lnot q)\;\lor\;(p \lor \lnot r)$ |
+| --- | --- | --- | -------- | -------- | -------- | ------------------------ | ----------------------------- | ------------------ | ----------------------------------------------------- |
+| T   | T   | T   | F        | F        | F        | F                        | T                             | T                  | T                                                     |
+| T   | F   | T   | F        | T        | F        | T                        | F                             | T                  | T                                                     |
+| F   | T   | T   | T        | F        | F        | T                        | F                             | F                  | F                                                     |
+| F   | F   | T   | T        | T        | F        | T                        | F                             | F                  | F                                                     |
+| T   | T   | F   | F        | F        | T        | F                        | T                             | T                  | T                                                     |
+| T   | F   | F   | F        | T        | T        | T                        | F                             | T                  | T                                                     |
+| F   | T   | F   | T        | F        | T        | T                        | F                             | T                  | T                                                     |
+| F   | F   | F   | T        | T        | T        | T                        | F                             | T                  | T                                                     |
+
+2. $\lnot(p \lor \lnot q)\;\land\; r$  
+3. $\lnot\bigl(p \lor (\lnot q \land r)\bigr)$  
 
 ---
 
