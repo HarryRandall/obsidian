@@ -1,7 +1,7 @@
 ### Course Summary
 
 Week 1: [[1.1 Introduction to Investments]]
-Week 2: 1.2 Risk and Return  
+Week 2: [[1.2 Risk and Return]]
 Week 3: 1.3 Capital Allocation and Optimal Risky Portfolios  
 Week 4: 1.4 Capital Asset Pricing Model  
 Week 5: 2.1 Index Models  

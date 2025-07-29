@@ -1,7 +1,7 @@
 ### Course Summary
 
 Week 1: [[1.1 Introduction to Regression Modelling]]
-Week 2: Parameter interpretation and estimation. Properties of least squares estimators.
+Week 2: [[1.2 Parameter interpretation and estimation]]
 Week 3: ANOVA. Inference concerning coefficients.
 Week 4: Hypothesis testing and interval estimation in SLR. Prediction intervals. Regression diagnostics, assumptions checks.
 Week 5: Influential observations, scale transformations.
