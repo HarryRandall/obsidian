@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 ANU Finance/Corporate Valuation/1.2 DCF valuation.md",
+                "file": "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 DCF valuation"
+              "title": "1.2 Risk and Return"
             }
           }
         ]
@@ -166,11 +166,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e1958d63d10e4802",
+  "active": "dda79ce6ddf35719",
   "lastOpenFiles": [
+    "999 Templates/ChatGPT Template.md",
+    "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
+    "200 ANU Finance/Corporate Valuation/Notes/1.2 DCF valuation.md",
+    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.2 Predicate Logic.md",
     "200 ANU Finance/Corporate Valuation/FINM3005 - Corporate Valuation.md",
     "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 2.md",
-    "999 Templates/ChatGPT Template.md",
     "999 Templates/Class Template.md",
     "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1.md",
     "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
@@ -178,13 +181,10 @@
     "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
     "200 ANU Finance/Regression Modelling/STAT2008 - Regression Modelling.md",
     "200 ANU Finance/Regression Modelling/Chapter 1/1.2 Parameter interpretation and estimation.md",
-    "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
-    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.2 Predicate Logic.md",
     "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
     "200 ANU Finance/Corporate Valuation/Notes/1.1 Course overview & Valuation in context.md",
     "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.1 Propositional Logic.md",
     "500 Sprintlaw/Processes/All Proccesses.md",
-    "200 ANU Finance/Corporate Valuation/1.2 DCF valuation.md",
     "300 ANU Computing/Theoretical Computer Science/Dafny/Dafny Introduction.md",
     "Untitled.md",
     "Untitled 1.md",
