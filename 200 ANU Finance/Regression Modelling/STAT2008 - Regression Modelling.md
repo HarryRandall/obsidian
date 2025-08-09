@@ -2,9 +2,9 @@
 
 Week 1: [[1.1 Introduction to Regression Modelling]]
 Week 2: [[1.2 Parameter interpretation and estimation]]
-Week 3: ANOVA. Inference concerning coefficients.
-Week 4: Hypothesis testing and interval estimation in SLR. Prediction intervals. Regression diagnostics, assumptions checks.
-Week 5: Influential observations, scale transformations.
+Week 3: [[1.3 ANOVA & Inference concerning coefficients]]
+Week 4: 2.1 Hypothesis testing and interval estimation in SLR. Prediction intervals. Regression diagnostics, assumptions checks.
+Week 5: 2.2 Influential observations, scale transformations.
 Week 6: Matrix Algebra and Introduction to Multiple Linear Regression (MLR).
 Week 7: Inference, ANOVA, Sequantial Sum of Squares in MLR.
 Week 8: Joint confidence intervals, multicollinearity and polynomial regression.

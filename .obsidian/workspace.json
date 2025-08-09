@@ -4,53 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "bff966d3111717a6",
+        "id": "aae701b3110aae06",
         "type": "tabs",
         "children": [
           {
-            "id": "36eae7cd52453d35",
+            "id": "4bcbb11030067d2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
+                "file": "200 ANU Finance/Regression Modelling/Chapter 1/Youtube Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1 Introduction to Investments"
+              "title": "Youtube Notes"
             }
           },
           {
-            "id": "bdc88007a6461a5f",
+            "id": "f93d2eae76d938b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 ANU Finance/Investments/FINM3011 - Investments.md",
+                "file": "200 ANU Finance/Regression Modelling/Chapter 1/ANOVA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FINM3011 - Investments"
-            }
-          },
-          {
-            "id": "5ccc2776824a60f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.2 Risk and Return"
+              "title": "ANOVA"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,44 +181,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5ccc2776824a60f2",
+  "active": "f93d2eae76d938b3",
   "lastOpenFiles": [
+    "200 ANU Finance/Regression Modelling/Chapter 1/Youtube Notes.md",
+    "200 ANU Finance/Regression Modelling/Chapter 1/1. Linear Regression with One Predictor Variable.md",
+    "200 ANU Finance/Regression Modelling/Chapter 1/ANOVA.md",
+    "998 Attachments/Pasted image 20250809155142.png",
+    "998 Attachments/Pasted image 20250809155123.png",
+    "998 Attachments/Pasted image 20250809155107.png",
+    "200 ANU Finance/Regression Modelling/Course Notes.md",
+    "998 Attachments/Pasted image 20250809144134.png",
+    "998 Attachments/Pasted image 20250809144028.png",
+    "998 Attachments/Pasted image 20250809131420.png",
+    "998 Attachments/Pasted image 20250809131319.png",
+    "998 Attachments/Pasted image 20250809131154.png",
+    "000 Index/1.3 ANOVA & Inference concerning coefficients.md",
+    "998 Attachments/Pasted image 20250809103057.png",
+    "998 Attachments/Pasted image 20250809102536.png",
+    "200 ANU Finance/Regression Modelling/Lecture Notes/1.1 Introduction to Regression Modelling.md",
+    "200 ANU Finance/Regression Modelling/Lecture Notes",
     "200 ANU Finance/Investments/FINM3011 - Investments.md",
-    "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
-    "300 ANU Computing/Theoretical Computer Science/Dafny/Dafny Introduction.md",
-    "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
-    "200 ANU Finance/Investments/Notes/1.3 Capital Allocation and Optimal Risky Portfolios.md",
-    "999 Templates/ChatGPT Template.md",
-    "998 Attachments/Pasted image 20250805122652.png",
-    "998 Attachments/Pasted image 20250805122004.png",
-    "998 Attachments/Pasted image 20250805121212.png",
-    "998 Attachments/Pasted image 20250805120302.png",
-    "998 Attachments/Pasted image 20250805115512.png",
-    "998 Attachments/Pasted image 20250805114810.png",
-    "998 Attachments/Pasted image 20250805113335.png",
-    "998 Attachments/Pasted image 20250805112101.png",
-    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.2 Predicate Logic.md",
-    "Dafny Week 2.md",
-    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.1 Propositional Logic.md",
-    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 2.md",
+    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 3.md",
     "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1.md",
-    "200 ANU Finance/Corporate Valuation/Notes/1.2 DCF valuation.md",
-    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1 (Week 1).md",
-    "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
-    "200 ANU Finance/Regression Modelling/Chapter 1/1.1 Introduction to Regression Modelling.md",
-    "200 ANU Finance/Regression Modelling/Chapter 1/1.2 Parameter interpretation and estimation.md",
+    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 2.md",
     "200 ANU Finance/Regression Modelling/STAT2008 - Regression Modelling.md",
-    "200 ANU Finance/Corporate Valuation/Notes/1.1 Course overview & Valuation in context.md",
+    "999 Templates/ChatGPT Template.md",
+    "999 Templates/Class Template.md",
+    "200 ANU Finance/Corporate Valuation/Course Notes.md",
+    "200 ANU Finance/Investments/Course Notes.md",
+    "300 ANU Computing/Theoretical Computer Science/Course Notes.md",
     "200 ANU Finance/Corporate Valuation/FINM3005 - Corporate Valuation.md",
-    "500 Sprintlaw/Processes/All Proccesses.md",
-    "000 Index/1.2 DCF valuation.md",
-    "000 Index/Untitled.md",
-    "Untitled 1.md",
+    "000 Index/1.3 ANOVA.md",
+    "200 ANU Finance/Regression Modelling/Lecture Notes/1.2 Parameter interpretation and estimation.md",
+    "200 ANU Finance/Investments/Notes/1.1 Introduction to Investments.md",
+    "200 ANU Finance/Investments/Notes/1.3 Capital Allocation and Optimal Risky Portfolios.md",
+    "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
+    "300 ANU Computing/Theoretical Computer Science/COMP1600 - Theoretical Computer Science.md",
+    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.3 Debugging In Dafny.md",
+    "300 ANU Computing/Theoretical Computer Science/Lecture Notes/1.2 Predicate Logic.md",
     "000 Index",
-    "998 Attachments/Pasted image 20250726142915.png",
-    "998 Attachments/Pasted image 20250726142859.png",
-    "400 Projects/c++ Notes/OpenGL/Propositional Logic.md",
-    "400 Projects/c++ Notes/OpenGL/OpenGL.md",
     "400 Projects/c++ Notes/OpenGL",
     "400 Projects/c++ Notes",
     "300 ANU Computing/Theoretical Computer Science/Tutorials",
@@ -240,7 +227,6 @@
     "300 ANU Computing/Theoretical Computer Science/Dafny",
     "gitignore",
     "hello",
-    "untitled folder",
-    "998 Attachments"
+    "untitled folder"
   ]
 }

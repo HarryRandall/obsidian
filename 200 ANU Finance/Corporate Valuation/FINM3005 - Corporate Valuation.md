@@ -19,7 +19,7 @@ Week 12: Review
 - Quiz in Week 5: online during workshop time  
 - Access via Canvas
 - Due in **Week 5**
-##### Assessment Item 2 (Quiz, 35%)
+##### Assessment Item 2 (Assignment, 35%)
 - DCF valuation and multiples
 - Due in **Week 10**
 - Build company model, including all forecasts and assumptions  
