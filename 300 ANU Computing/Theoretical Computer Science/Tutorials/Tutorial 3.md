@@ -10,24 +10,32 @@ We only consider variables of type `Z`, one unary relation `E(x)`, and a binary 
 
 For each of the following formulae, determine the free variables, and determine precisely for which values of $x$ and $y$ the formulae are true. Justify your answer briefly (in a single sentence).
 
+A variable occurrence is _free_ if it is not inside the scope of a quantifier (∃ or ∀) that binds it; equivalently, after removing all quantifiers from the formula the remaining unquantified variable symbols are the free variables.
+**How to proceed (quick recipe):**
+- Scan the formula and mark each occurrence of a variable that lies within the scope of a quantifier (e.g. $∀z, ∃z\forall z$) - those are _bound_. Any variable symbol not bound anywhere is _free_.
+- To decide truth for particular values of the free variables, interpret $E(x)$$ as “$x$ is even” and $D(x,y)$) as “$x$ is divisible by $y$” and evaluate the formula with the usual semantics of quantifiers over all integers.
+- When the formula has quantifiers, remember they range over all integers $\mathbb{Z}$.
+
 1. $D(x, x)$
-	- X is the free variable.
-	- Holds for any value of $x$ apart from 0.
+	- X is a free variable, as it's not bound.
+	- The formula is true for all values of $x$, as $x$ is always divisible by itself.
 2. $\exists x. D(x, x)$
-	- This is saying that there exists an X where $\frac {x}{x}$ holds, which know can test with $\frac{1}{1}$ $x$ being $1$, and we can see that this holds. There are no free variables.
+	- There are no free variables, as $x$ is bound.
+	- This formula holds for all of $x$.
 3. $\forall x. \exists y. D(x, y)$
-	- This is true, for all $x$ values, there exists a $y$ value such that $\frac {x}{y}$, we know that every integer is divisible by $2$, so this holds. There are no free variables.
+	- There are no free variables, $x$ & $y$ are bound.
+	- This reads, for every $x$, there exists a $y$ such that $\frac{x}{y}$ holds.
 4. $\exists y. E(y) \land D(x, y)$
-	- There exists a Y such that Y is an even value AND x is divisible by y.
-	- X is a free variable here, as it's not used.
-	- So we need an even value Y so (2,4,6) and some unknown value of $x$ is divisible by $y$.
-	- We assume x is an integer Z, so yes, this holds, as we have $x=2, y=2$ so $\frac{2}{2}$ holds AND $y$ is even.
+	- $x$ is a free variable in this case, as it's not bound.
+	- There exists a $y$, that is even, and the the variable $x$ is divisible for this even value of $y$. This holds for the arbitrary value $ x = 0$, as $\frac{0}{2}$ meets both conditions.
 5. $\forall y. \lnot E(y) \Rightarrow D(y, x)$
-	- for all y, odd (y) implies $\frac{y}{x}$.
 	- $x$ is a free variable.
-	- This holds for any odd values of $y$ and any values of $x$ apart from 0.
+	- For all odd $y$ values implies that's it's divisible by some value of $x$. This is false as $x$ can be a zero value, which is undefined.
+	- This statement is only true when $x$ is $1$ or $-1$, as it needs to return $\mathbb{Z}$ an integer. If we had $\frac{3}{2}$ which holds the first condition, it returns $1.5$ which is not $\mathbb{Z}$.
 6. $\forall y. E(y) \land D(x, y)$
-	- 
+	- X is a free variable.
+	- For all $y$ -> even values of $y$ AND $\frac{x}{y}$ holds.
+	- This is true for all values.
 
 ---
 

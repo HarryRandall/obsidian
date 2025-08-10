@@ -1,8 +1,24 @@
 **Class**: [[STAT2008 - Regression Modelling]]
 **Date**: Saturday, 9 August 2025, 15:44
-**Tags**: 
+**URL**: https://www.youtube.com/watch?v=wraov1Nv7UA
 
 ---
+### One-Way ANOVA
+- ANOVA tests whether there are significant differences between three or more groups.
+- More precisely, it is tested whether there is a significant difference between the mean values of the groups.
+
+**Example** You want to investigate whether there is a difference between fertilizers A, B, and C, in terms of plant growth. 
+- The analysis of variance now helps you to determine if there is a significant difference between the three fertilizers and plant growth.
+
+- The t-Test is very similar to ANOVA, however t-Test only measures two variables, whilst ANOVA measures more than two.
+
+#### Hypothesis Testing with ANOVA
+- The Null hypothesis = the mean values of the group are equal.
+	- $\mu_1 = \mu_2 = \dots = \mu_k$
+	- $\mu_1$ represents the first mean value.
+- The Alternative Hypothesis = the mean values of the group are **not** equal (at least one $\mu_i$ is different).
+
+
 ### ANOVA for Simple Linear Regression - House Price Example
 
 We have $n = 10$ observations.
