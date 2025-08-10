@@ -4,7 +4,6 @@
 
 ---
 #### Post-Conditions
-
 Suppose we have the following function
 ```C
 function Triple1(x:int): int{
