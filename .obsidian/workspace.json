@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e139b615c338cb0",
+            "id": "0f12678f17c71c83",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tutorial 3"
+              "title": "New tab"
             }
           }
         ]
@@ -160,6 +156,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -169,8 +166,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8e139b615c338cb0",
+  "active": "48209450b054d42c",
   "lastOpenFiles": [
+    "200 ANU Finance/Investments/FINM3011 - Investments.md",
+    "999 Templates/Class Template.md",
+    "000 Index/R Studio.md",
+    "000 Index",
+    "Dafny Week 2.md",
+    "R_Studio.md",
+    "Untitled.md",
+    "200 ANU Finance/Investments/Notes/1.2 Risk and Return.md",
+    "300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 3.md",
     "200 ANU Finance/Regression Modelling/Notes/ANOVA.md",
     "200 ANU Finance/Regression Modelling/Notes/Regression Overview.md",
     "200 ANU Finance/Regression Modelling/Chapter 1/1. Linear Regression with One Predictor Variable.md"
