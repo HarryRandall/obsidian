@@ -2,10 +2,10 @@
 
 Week 1: [[1.1 Course overview & Valuation in context]] 
 Week 2: [[1.2 DCF valuation]]
-Week 3: Building a company model & Reorganising the financial statements
-Week 4: Forecasting and model integrity
-Week 5: Cost of capital
-Week 6: Incorporating growth potential
+Week 3: [[Building a company model & Reorganising the financial statements]]
+Week 4: [[Forecasting and model integrity]]
+Week 5: [[Cost of capital]]
+Week 6: [[Incorporating growth potential]]
 Week 7: Multiple-based valuations
 Week 8: Asset-based valuations
 Week 9: Sensitivity and scenario analysis

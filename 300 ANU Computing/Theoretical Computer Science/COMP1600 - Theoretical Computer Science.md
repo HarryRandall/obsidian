@@ -1,7 +1,7 @@
 ### Course Summary
 
-Week 1: [[1.1 Propositional Logic]] |  [[Tutorial 1]]
-Week 2: [[1.2 Predicate Logic]] | [[Tutorial 2]]
+Week 1: [[1.1 Propositional Logic]] |  [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1]]
+Week 2: [[1.2 Predicate Logic]] | [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 2]]
 Week 3: [[1.3 Debugging In Dafny]]
 
 ---
