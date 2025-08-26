@@ -3,21 +3,6 @@
 **Tags**: 
 
 ---
-# The Australian National University S2 2025
-
-## School of Computing Practical Session 4
-
-Nisansala Yatapanage and Dirk Pattinson
-
-### Foundations of Computing: Week 4
-
-- This tutorial will give you practice at mathematical induction, both by hand and using Dafny.
-- Use the Dafny file `04-tutorial-handout.dfy` for the Dafny and mini-assignment questions.
-- Upload a plain text file called `u123456.dfy` (replace by your uID) to Wattle, you might lose (some) marks otherwise.
-- Submit the exercises marked MA by Wednesday 20th August, 2025, 09:00 via Wattle. Late submissions will score 0.
-
----
-
 ## Exercise 1 Induction Problem 1
 
 Notice that the following holds:

@@ -3,21 +3,6 @@
 **Tags**: 
 
 ---
-# The Australian National University S2 2025
-
-## School of Computing Practical Session 5
-
-Nisansala Yatapanage and Dirk Pattinson
-
-### Foundations of Computation: Week 5
-
-- This tutorial will give you practice at induction over numbers and lists.
-- Use the Dafny file `05-tutorial-handout.dfy` for the Dafny questions.
-- Upload a plain text file called `u123456.dfy` (replaced by your uID) to Wattle. You may lose some marks if you do not follow these instructions correctly.
-- Submit the exercises marked MA by Wednesday 27th August, 2025, 09:00 via Wattle. Late submissions will score 0.
-
----
-
 ## Exercise 1 Induction Problem (MA, 5 credits)
 
 Recall the following problem from the last tutorial:
