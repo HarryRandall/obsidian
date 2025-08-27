@@ -2,16 +2,16 @@
 
 Week 1: [[1.1 Introduction to Regression Modelling]]
 Week 2: [[1.2 Parameter interpretation and estimation]]
-Week 3: [[1.3 ANOVA & Inference concerning coefficients]]
-Week 4: 2.1 Hypothesis testing and interval estimation in SLR. Prediction intervals. Regression diagnostics, assumptions checks.
+Week 3: [[1.3 ANOVA & Coefficient Inference]]
+Week 4: [[2.1 Hypothesis Testing & Diagnostics in SLR]]
 Week 5: [[2.2 Influential Observations & Scale Transformations]]
-Week 6: [[2.3 Matrix Algebra & Introduction to Multiple Linear Regression (MLR)]]
-Week 7: Inference, ANOVA, Sequantial Sum of Squares in MLR.
-Week 8: Joint confidence intervals, multicollinearity and polynomial regression.
-Week 9: Qualitative variables in MLR
-Week 10: Model diagnostics. Influence diagnostics. Multicollinearity diagnostics.
-Week 11: Model selection and criteria for comparing models.
-Week 12: Course review
+Week 6: [[2.3 Matrix Algebra & Intro to MLR]]
+Week 7: [[3.1 Inference & ANOVA in MLR]]
+Week 8: [[3.2 Multicollinearity & Polynomial Regression]]
+Week 9: [[3.3 Qualitative Variables in MLR]]
+Week 10: [[4.1 Model & Multicollinearity Diagnostics]]
+Week 11: [[4.2 Model Selection & Comparison Criteria]]
+Week 12: [[Review & Exam Preparation]]
 
 ---
 ### Assessments
