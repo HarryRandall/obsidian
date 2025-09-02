@@ -3,8 +3,8 @@
 Week 1: [[1.1 Propositional Logic]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 1|Tutorial 1]]  
 Week 2: [[1.2 Predicate Logic]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 2|Tutorial 2]]  
 Week 3: [[1.3 Debugging In Dafny]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 3|Tutorial 3]]  
-Week 4: [[2.1 Induction & Recursion]] || Tutorial 4
-Week 5: [[2.2 Dafny & Lists]] || Tutorial 5
+Week 4: [[2.1 Induction & Recursion]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 4|Tutorial 4]]
+Week 5: [[2.2 Dafny & Lists]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 5|Tutorial 5]]
 Week 6: [[2.3 Advanced Induction]] || Tutorial 6
 Week 7:
 Week 8:

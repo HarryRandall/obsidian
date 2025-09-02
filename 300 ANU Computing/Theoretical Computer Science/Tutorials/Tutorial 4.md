@@ -29,18 +29,34 @@ $$
 
 Work out a general formula for the above, and prove it using mathematical induction. All steps of the proof must be shown. The proof should be completed without Dafny.
 
+$$\sum_{i=1}^n 2i-1 = n^2$$
+**Base Case** ($n = 1$)
+$2 - 1 = 1^2 = 1$, base case holds.
+
+**Inductive Step**
+$$\sum_{i=1}^{n+1} (2i-1) = n^2$$
+$$s(k) = k^2$$
+$$s(k+1) = k^2 + (2k -1) +1$$
+$$ s(k+1) = k^2 + (2k - 2 + 1)$$
+$$ s(k+1) = k^2 + (2k +1)$$
+$$ s(k+1) = (k+1)(k+1)$$
+$$ s(k+1) = (k+1)^2$$
+
+
+
+
+
 ---
 
 ## Exercise 2 Induction Problem 2
 
 Prove, using mathematical induction, that:
 
-$$
-\sum_{i=1}^{n-1} i(i + 1) = \frac{n(n - 1)(n + 1)}{3}
-$$
+
+$$\sum_{i=1}^{n-1} i(i + 1) = \frac{n(n - 1)(n + 1)}{3}$$
 
 for all integers $n \geq 2$.  
-
+		
 All steps of the proof must be shown. The proof should be completed without Dafny.
 
 ---
@@ -113,9 +129,6 @@ lemma is_even_corr (n: nat)
   ensures is_even(n) ==> even(n)
 { /* your proof here */ }
 
-lemma even_is_corr (n: nat)
-  ensures even(n) ==> is_even(n)
-{ /* your proof here */ }
 ```
 
 Show that this function indeed matches its specification by proving the lemma on the right above. You might want to prove an auxiliary statement first, or use one of the previous lemmas from this tutorial.  
