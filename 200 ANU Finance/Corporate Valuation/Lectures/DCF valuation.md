@@ -1,9 +1,7 @@
 **Class**: [[FINM3005 - Corporate Valuation]]
 **Date**: idk, idk July 2025, 15:30
 **Tags**: 
-
----
-https://www.youtube.com/watch?v=gLULdxrS-CU&t=68s
+**Links**: https://www.youtube.com/watch?v=gLULdxrS-CU&t=68s
 
 ---
 #### Lecture 2

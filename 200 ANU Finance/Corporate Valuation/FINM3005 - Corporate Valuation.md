@@ -1,8 +1,8 @@
 ### Course Summary
 
-Week 1: [[1.1 Course overview & Valuation in context]] 
-Week 2: [[1.2 DCF valuation]]
-Week 3: [[Building a company model & Reorganising the financial statements]]
+Week 1: [[Course overview & Valuation in context]]
+Week 2: [[DCF valuation]] || [[Workshop 1]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 2|Tutorial 2]]
+Week 3: [[Financial modelling & statement restructuring]]
 Week 4: [[Forecasting and model integrity]]
 Week 5: [[Cost of capital]]
 Week 6: [[Incorporating growth potential]]
@@ -33,6 +33,6 @@ Week 12: Review
 
 | Assignment | Weighting | Score / 100 | Weighted Score |
 | ---------- | --------- | ----------- | -------------- |
-| Quiz       | 5%        |             |                |
+| Quiz       | 5%        | 70%         | 3.5            |
 | Assignment | 35%       |             |                |
 | Final Exam | 60%       |             |                |

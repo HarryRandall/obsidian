@@ -1,16 +1,16 @@
 ### Course Summary
 
-Week 1: [[1.1 Introduction to Regression Modelling]]
-Week 2: [[1.2 Parameter interpretation and estimation]]
-Week 3: [[1.3 ANOVA & Coefficient Inference]]
-Week 4: [[2.1 Hypothesis Testing & Diagnostics in SLR]]
-Week 5: [[2.2 Influential Observations & Scale Transformations]]
-Week 6: [[2.3 Matrix Algebra & Intro to MLR]]
-Week 7: [[3.1 Inference & ANOVA in MLR]]
-Week 8: [[3.2 Multicollinearity & Polynomial Regression]]
-Week 9: [[3.3 Qualitative Variables in MLR]]
-Week 10: [[4.1 Model & Multicollinearity Diagnostics]]
-Week 11: [[4.2 Model Selection & Comparison Criteria]]
+Week 1: [[Introduction to Regression Modelling]]
+Week 2: [[Parameter interpretation and estimation]]
+Week 3: [[ANOVA & Coefficient Inference]]
+Week 4: [[Hypothesis Testing & Diagnostics in SLR]]
+Week 5: [[Influential Observations & Scale Transformations]]
+Week 6: [[Matrix Algebra & Intro to MLR]]
+Week 7: [[Inference & ANOVA in MLR]]
+Week 8: [[Multicollinearity & Polynomial Regression]]
+Week 9: [[Qualitative Variables in MLR]]
+Week 10: [[Model & Multicollinearity Diagnostics]]
+Week 11: [[Model Selection & Comparison Criteria]]
 Week 12: [[Review & Exam Preparation]]
 
 ---
@@ -33,3 +33,11 @@ Week 12: [[Review & Exam Preparation]]
 - Individual, written report.
 ##### Assessment Item 3 (Final Exam, 70%)
 - 2 hour final exam during Examination period
+
+
+| Assignment   | Weighting | Score / 100 | Weighted Score |
+| ------------ | --------- | ----------- | -------------- |
+| Quiz         | 5%        | 90%         | 4.5            |
+| Assignment 1 | 10%       |             |                |
+| Assignment 2 | 15%       |             |                |
+| Final Exam   | 70%       |             |                |

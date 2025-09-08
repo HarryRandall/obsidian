@@ -35,28 +35,3 @@
 #### Tutorial 1
 Tutors name - Yasvira Rizki
 Tutors email - yasvira.rizki@anu.edu.au
-
-##### Study Tips
-- Tutorial questions & sample/past exam paper for prep Final Exam
-- Start the assignment early
-- Watch or come to the workshop.
-##### Week 1 review
-- **Value** = net present value of future cash flows
-- 3 valuation approaches
-	1. Multiple-based valuations
-	2. Asset-based valuations
-	3. Discounted cash flows
-- $Growth rate = Investment rate \times ROIC$
-	- $ROIC$ = return on invested capital
-	- Balance growth and ROIC to create firm value
-- Cash flow = Earnings $\times (1 - \frac{growth}{roic})$
-	- Higher $ROIC$, higher cash flow
-- Value creation by type of growth:
-	1. New product to market
-	2. Expand existing market
-	3. Increase share in growing market
-	4. Compete for share in a stable market (for more market share)
-	5. Acquire new businesses
-- $ROIC > WACC \implies create value$ 
-- $ROIC < WACC \implies destroy value$ 
-- $WACC$ = Weight Average Cost of Capital
