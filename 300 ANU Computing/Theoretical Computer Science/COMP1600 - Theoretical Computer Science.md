@@ -5,7 +5,7 @@ Week 2: [[Predicate Logic]] || [[300 ANU Computing/Theoretical Computer Science/
 Week 3: [[Debugging In Dafny]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 3|Tutorial 3]]  
 Week 4: [[Induction & Recursion]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 4|Tutorial 4]]
 Week 5: [[Dafny & Lists]] || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 5|Tutorial 5]]
-Week 6: [[2.3 Advanced Induction]] || Tutorial 6
+Week 6: [[Advanced Induction]] || Tutorial 6
 Week 7:
 Week 8:
 Week 9:

@@ -44,5 +44,4 @@
 ##### General Advice
 - Modelling is art as well as science
 - Models need to be tailored. One size does not fit all.
-- 
 #### Estimating ROIC (Return On Invested Capital)
