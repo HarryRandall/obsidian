@@ -115,18 +115,39 @@ function inc_list (list: List<int>) : List<int> {
 /* COMP 1600/6260 Tutorial 6 Exercise 3 */
 /*--------------------------------------*/
 
+// Cons Function
+// Takes in an element H
+// Takes in a list T
+// Combines them, so it's [h] + t
+
+// The followng functions are given from the tutorial:
+// takes a list xs and ys and sticks them together
+// define a new variable x, as the head of the list xs
+// define tail as the rest of the list, apart from the head.
+// recurse through the list until the list xs is empty
+// then we just add ys to the end of it. 
 function Append<T>(xs:List<T>, ys:List<T>): List<T>{
    match xs
    case Nil => ys
    case Cons(x,tail) => Cons(x,Append(tail,ys))
 }
 
+ // reverses a list by using recursion and the append function 
+// pretty inefficient and slow
+// we take in the head 
 function rev1 (list: List<int>) : List<int> {
     match list
         case Nil => Nil
         case Cons(h, t) => Append (rev1(t), Cons(h, Nil))
 }
 
+
+// more efficient reverse function, building a list as it goes.
+// We define h as the head of the list [0]
+// We define t as the last element in the list [-1]
+// a is a new list, that's empty at the beginning, and we build
+// upon it as we go.
+// We call rev2(tail, [head] + a)
 function rev2 (list: List<int>, a: List<int>) : List<int> {
     match list
         case Nil => a
@@ -134,105 +155,97 @@ function rev2 (list: List<int>, a: List<int>) : List<int> {
 }
 
 
-// ==========================================
-// Exercise 3: List reversal equivalence
-// ==========================================
+// Our goal is to prove that rev1(list) == rev2(list, Nil) for all 
+// integer lists `list`
 
-// Recall: Append joins two lists together.
-// rev1 reverses a list by recursion + append.
-// rev2 reverses a list by carrying an accumulator (a "work in progress").
-// Goal: prove that rev1(list) == rev2(list, Nil) for all lists.
+// (a) Formulate a lemma `Append_assoc` that expresses that append is \
+// associative. Dafny should prove this lemma automatically.  
 
-// ---------------------------------------------------------
-// Part (a): Lemma Append_assoc
-// ---------------------------------------------------------
-
-lemma append_assoc<T>(xs: List<T>, ys: List<T>, zs: List<T>)
-  // Property: (xs ++ ys) ++ zs == xs ++ (ys ++ zs)
-  // In words: concatenation is associative.
-  ensures Append(Append(xs, ys), zs) == Append(xs, Append(ys, zs))
+lemma append_assoc(xs: List<int>, ys: List<int>, zs: List<int>)
+  // (xs + ys) + zs = xs + (ys + zs)
+    ensures Append(Append(xs, ys), zs) == Append(xs, Append(ys, zs))
 {
-  // Proof by structural induction on xs.
+  // proof on xs to prove the function is associative.
   match xs
+  // case one, so the list xs is empty,
+  // we get append([], list[ys]) = ys on the left
+  // on the right, we have Append([], Append(ys, zs))
+  // as Append([], Append(ys, zs)) = Append(ys, zs) this holds.
     case Nil =>
-      // Case xs = []
-      // Append([], ys) = ys
-      // So LHS = Append(ys, zs)
-      // RHS = Append([], Append(ys, zs)) = Append(ys, zs)
-      // Therefore equality holds automatically.
-    case Cons(h, t) =>
-      // Case xs = Cons(h, t)
-      // LHS = Append(Append(Cons(h, t), ys), zs)
-      //     = Append(Cons(h, Append(t, ys)), zs)
-      //     = Cons(h, Append(Append(t, ys), zs))
-      // RHS = Append(Cons(h, t), Append(ys, zs))
-      //     = Cons(h, Append(t, Append(ys, zs)))
-      // By induction hypothesis on t, the inner Append parts match.
-      append_assoc(t, ys, zs);
+    // case xs = cons(head, tail)
+    // append defintion Cons(x,tail) => Cons(x,Append(tail,ys))
+    // using this defintion, and the lhs/rhs, we can simplify
+    // lhs =  Append(Append(xs, ys), zs)
+    // lhs = Append(Append(cons(head, tail), ys), zs)
+    // lhs = Append(cons(head, Append(tail, ys)), zs)
+    // lhs = Cons(head, Append(Append(tail, ys), zs))
+    // rhs = Append(xs, Append(ys, zs))
+    // rhs = Cons(head, Append(tail, Append(ys, zs)))
+    // as they match, it proves associativity.
+    case Cons(head, tail) =>
+      append_assoc(tail, ys, zs);
 }
 
-// ---------------------------------------------------------
-// Part (b): Lemma Append_nil
-// ---------------------------------------------------------
+// (b) Formulate a lemma `Append_nil` that expresses that concatenation 
+// with an empty list on the right is the identity. Again, Dafny should 
+// prove this automatically.  
 
 lemma Append_nil<T>(xs: List<T>)
-  // Property: appending [] to the right of xs doesn’t change xs.
+  // appending [] to a lis xs, is still the list xs.
   ensures Append(xs, Nil) == xs
 {
   match xs
+  // if empty, append([], []) = [] so holds.
     case Nil =>
-      // Case xs = []
-      // Append([], []) = [] so equality holds.
+    // if not, we loop over the head and tail
+    // lhs = Append(Cons(head, tail), Nil)
+    // lhs = Cons(head, Append(tail, Nil))
+    // rhs = Cons(head, tail)
+    // we know that Append(tail, Nil) == tail so this holds.
     case Cons(h, t) =>
-      // Case xs = Cons(h, t)
-      // LHS = Append(Cons(h, t), Nil)
-      //     = Cons(h, Append(t, Nil))
-      // RHS = Cons(h, t)
-      // By induction hypothesis: Append(t, Nil) == t.
       Append_nil(t);
 }
 
-// ---------------------------------------------------------
-// Part (c): Lemma rev1_rev2_aux
-// ---------------------------------------------------------
+// (c) Formulate and prove a lemma `rev1_rev2_aux` that generalises the 
+// statement `rev1(list) == rev2(list, Nil)`.  
 
 lemma rev1_rev2_aux(list: List<int>, acc: List<int>)
-  // This generalises our final goal:
-  // Instead of proving rev1(list) == rev2(list, Nil),
-  // we prove: Append(rev1(list), acc) == rev2(list, acc).
+  // rev1(list) == rev2(list, Nil)
+  // Append (rev1(t), Cons(head, Nil)) == rev2(list, acc)
+  // where Cons(head, Nil)) = acc
   ensures Append(rev1(list), acc) == rev2(list, acc)
 {
   match list
     case Nil =>
-      // Base case: list = []
-      // LHS = Append(rev1([]), acc)
-      //     = Append([], acc) = acc
-      // RHS = rev2([], acc) = acc
-      // Done.
-    case Cons(h, t) =>
-      // Inductive case: list = Cons(h, t)
-      // LHS = Append(rev1(Cons(h, t)), acc)
-      //     = Append(Append(rev1(t), Cons(h, Nil)), acc)
-      //     = Append(rev1(t), Append(Cons(h, Nil), acc))   (by Append_assoc)
-      // RHS = rev2(Cons(h, t), acc)
-      //     = rev2(t, Cons(h, acc))
-      // By IH: Append(rev1(t), Cons(h, acc)) == rev2(t, Cons(h, acc))
-      // Therefore equality holds.
-      append_assoc(rev1(t), Cons(h, Nil), acc);
-      rev1_rev2_aux(t, Cons(h, acc));
+    case Cons(head, tail) =>
+    // xs = Cons(head, tail)
+    // lhs = Append (rev1(t), Cons(h, Nil))
+    // lhs = Append(Append(rev1(tail), Cons(head, Nil)), acc)
+    // using Append(Append(xs, ys), zs) == Append(xs, Append(ys, zs))
+    // lhs = Append(rev1(tail), Append(Cons(head, Nil), acc))
+    // lhs = Append(rev1(t), Cons(h, acc))
+    // rhs = rev2(list, acc)
+    // rhs = rev2(Cons(head, taiil), acc)
+    // rhs = rev2(t, Cons(h, acc))
+    // lhs = rhs, so this holds. holds
+      append_assoc(rev1(tail), Cons(head, Nil), acc);
+      rev1_rev2_aux(tail, Cons(head, acc));
 }
 
-// ---------------------------------------------------------
-// Part (d): Lemma rev1_rev2
-// ---------------------------------------------------------
+// (d) Use the lemma above to give a proof of lemma 
+// rev1_rev2(list: List<int>) which states that 
+// rev1(list) == rev2(list, Nil)
 
-lemma rev1_rev2(list: List<int>)
+
+lemma rev1_rev2_proof(list: List<int>)
   ensures rev1(list) == rev2(list, Nil)
 {
-  // Specialise the auxiliary lemma with acc = Nil.
-  // It says: Append(rev1(list), Nil) == rev2(list, Nil).
+  // looking at the rev1_rev2_aux lemma, we can see that
+  // Append(rev1(t), Cons(h, acc)) == rev2(t, Cons(h, acc))
+  // Append(rev1(list), Nil) == rev2(list, Nil)
   rev1_rev2_aux(list, Nil);
 
-  // Finally, use Append_nil to simplify Append(rev1(list), Nil) == rev1(list).
+  // finally we can prove that Append(rev1(list), Nil) == rev1(list)
+  // completing the proof.
   Append_nil(rev1(list));
 }
