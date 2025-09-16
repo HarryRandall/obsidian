@@ -5,7 +5,7 @@ Week 2: [[DCF valuation]] || [[Workshop 1]] || [[200 ANU Finance/Corporate Valua
 Week 3: [[Financial modelling & statement restructuring]]
 Week 4: [[Forecasting and model integrity]]
 Week 5: [[Cost of capital]]
-Week 6: [[Incorporating growth potential]]
+Week 6: [[Incorporating growth potential]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 6| Tutorial 6]]
 Week 7: Multiple-based valuations
 Week 8: Asset-based valuations
 Week 9: Sensitivity and scenario analysis

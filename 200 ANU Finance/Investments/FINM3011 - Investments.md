@@ -5,8 +5,8 @@ Week 2: [[Risk and Return]] || [[Workshop 1]] || [[200 ANU Finance/Investments/T
 Week 3: [[Capital Allocation & Risky Portfolios]] || [[Workshop 2]] || [[200 ANU Finance/Investments/Tutorials/Tutorial 3|Tutorial 3]]
 Week 4: [[Capital Asset Pricing Model]] || [[Workshop 3]] || [[200 ANU Finance/Investments/Tutorials/Tutorial 4|Tutorial 4]]
 Week 5: [[Index Models]] || [[Workshop 4]] || [[200 ANU Finance/Investments/Tutorials/Tutorial 5|Tutorial 5]]
-Week 6: [[Multifactor Models]] || [[Workshop 5]] || [[200 ANU Finance/Investments/Tutorials/Tutorial 6]]
-Week 7: The Efficient Market Hypothesis and Behavioural Finance  
+Week 6: [[Multifactor Models]] || [[Workshop 5]] || [[200 ANU Finance/Investments/Tutorials/Tutorial 6 | Tutorial 6]]
+Week 7: [[The Efficient Market Hypothesis]]
 Week 8: Portfolio Performance Evaluation  
 Week 9: Fixed Income Securities  
 Week 10: The Term Structure of Interest Rates  
