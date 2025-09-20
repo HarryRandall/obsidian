@@ -4,8 +4,8 @@
 **Links**: https://www.youtube.com/watch?v=gLULdxrS-CU&t=68s
 
 ---
-#### Lecture 2
-##### Net Present Value (NPV)
+## Lecture 2
+### Net Present Value (NPV)
 - General term referring to discounted value for stream of cash flows.
 - **Objective**: Estimate cash flows available to providers of capital, and discount at the return required by those providers.
 
@@ -24,7 +24,7 @@ Various approaches exist based on the same principle, but employing different st
 	- High risk, low price.
 	- Low risk, high price.
 
-##### Enterprise DCF Model
+### Enterprise DCF Model
 - The left hand side = right hand side.
 - The enterprise value is the value of the companies operation.
 - The right hand side is used to support the left hand side of the company (debt and equity).
@@ -67,8 +67,8 @@ $$\text{Mid-Year DCF}\;\;PV = \frac{100}{(1.1)^{0.5}} = 95.35$$
 - Excludes the non-operating cash flows (treated and valued separately) and financing items (i.e., shifts in invested capital).
 
 
-#### Youtube Analysis
-##### Discounted Cash Flow Steps
+## Youtube Analysis
+### Discounted Cash Flow Steps
 - **Forecast the Free Cash Flows (FCF)**
 	- Use a set of assumptions based upon historical data to predict whether a company is going to be generating cash within the next 5-10 years.
 - **Calculate the Weighted Average Cost of Capital (WACC)**
@@ -81,7 +81,7 @@ $$\text{Mid-Year DCF}\;\;PV = \frac{100}{(1.1)^{0.5}} = 95.35$$
 - **Calculate the Implied Share Price**
 	- Calculate the enterprise value, the equity value, and eventually get to the implied share price of the company. 
 
-##### Free Cash Flows
+### Free Cash Flows
 - Cash flow available to both debt and equity holders after the business pays for everything it needs to continue operating. 
 	- Operating expenses
 	- Capital Expenditures
@@ -102,7 +102,7 @@ $$\text{Mid-Year DCF}\;\;PV = \frac{100}{(1.1)^{0.5}} = 95.35$$
 Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4duTIcwM-b7KBUJKCnnljwrc1KE/edit?gid=0#gid=0))
 ![[Pasted image 20250904105806.png]]
 
-##### Weighted Average Cost of Capital
+### Weighted Average Cost of Capital
 - Measures the cost of financing for a company.
 - **Debt financing**:
 	- There is a **Cost of Debt**
@@ -133,7 +133,7 @@ Where:
 Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4duTIcwM-b7KBUJKCnnljwrc1KE/edit?gid=908451720#gid=908451720))
 ![[Pasted image 20250906095040.png]]
 
-##### Terminal Value
+### Terminal Value
 - The value of the business after the forecasted period.
 - There are two ways to calculate this:
 
@@ -159,7 +159,7 @@ Where:
 Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4duTIcwM-b7KBUJKCnnljwrc1KE/edit?gid=40010518#gid=40010518))
 ![[Pasted image 20250906100828.png]]
 
-##### Discounting
+### Discounting
 - We are going to discount the cash flows back to the present (time value of money).
 - We'll also discount the terminal value back to the present.
 - If we sum these two values, we will get the **enterprise value**.
@@ -167,7 +167,7 @@ Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4
 Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4duTIcwM-b7KBUJKCnnljwrc1KE/edit?gid=1947024637#gid=1947024637))
 ![[Pasted image 20250906101924.png]]
 
-##### Equity Value
+### Equity Value
 - The last step is to go from the enterprise value to the equity value of the company, which leads to an implied share price.
 
 **Enterprise Value Formula**  
@@ -176,4 +176,4 @@ Where:
 - $\text{Net Debt} = \text{Debt} - \text{Cash}$  
 
 Worked example ([here](https://docs.google.com/spreadsheets/d/1eg0VmfDDadB6gbLi4duTIcwM-b7KBUJKCnnljwrc1KE/edit?gid=528535070#gid=528535070))
-![[Pasted image 20250906102438.png]]
+![[Pasted image 20250906102438.png]] 
