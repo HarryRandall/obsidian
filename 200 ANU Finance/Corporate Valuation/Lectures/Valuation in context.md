@@ -31,7 +31,4 @@
 		- **Amazon** had negative cash flows, but there is potential additional cash flows. These companies are called 'Growth Stocks'
 	- Investments that earn below cost of capital will destroy value, regardless of what happens to top-line sales growth.
 
----
-#### Tutorial 1
-Tutors name - Yasvira Rizki
-Tutors email - yasvira.rizki@anu.edu.au
+
