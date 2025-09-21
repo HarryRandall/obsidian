@@ -1,7 +1,7 @@
 ### Course Summary
 
 Week 1: [[Valuation in context]]
-Week 2: [[DCF valuation]]                                                  $\;$    || [[Workshop 1]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 1|Tutorial 1]]
+Week 2: [[DCF valuation]]                                                  $\;$    || [[200 ANU Finance/Corporate Valuation/Workshops/Workshop 1]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 1|Tutorial 1]]
 Week 3: [[Financial modelling & statement restructuring]]  $\;$|| [[Workshop 2]] || [[Tutorial 2]]
 Week 4: [[Forecasting & Model Integrity]]                            $\;$|| [[Workshop 3]] || [[Tutorial 3]]
 Week 5: [[Cost of capital]]                                                     $\;$|| [[Workshop 4]] || [[Tutorial 4]]
