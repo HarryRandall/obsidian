@@ -164,4 +164,34 @@ $$ \text{ROIC (from operations)} = \frac{\text{profits from operations (NOPLAT)}
 	- Abnormally high/low ROIC may hint at potential for mean reversion
 	- Information in ROIC trends about what is happening at the margin
 
-Stopped at 1:29:00
+### ROIC Decomposition & 'Value Drivers'
+Value creation could be distilled to 4 core value drivers:
+1. Revenue growth - determines 'size' of the company.
+2. Operating margin - how much profit generated from revenue.
+3. Capital efficiency - how much capital required to support operations
+4. Cost of capital - the required rate of return / discount rate.
+
+$$
+ROIC \;=\; \frac{\text{After-Tax Operating Margin} \times \text{Revenue}}{\text{Invested Capital}}
+\;=\; \frac{NOPLAT}{\text{Revenue}} \times \frac{\text{Revenue}}{IC}
+$$
+
+**Example**
+![[Pasted image 20250923100357.png]]
+
+### Analysis of Revenue Growth
+- Historical revenue data can be difficult to interpret
+	- Acquisitions
+	- Expansion of existing operations
+	- Foreign exchange effects
+	- Accounting policy changes
+
+### What ROIC is achievable?
+**Key Questions**
+- How sustainable is current ROIC?
+- What is the likely marginal ROIC or RONIC
+- Is there something special about the company or industry that supports a sustained high (or low) ROIC or RONIC?
+**Key considerations**
+1. Industry environment, e.g. Porter's five forces, game theory.
+2. Competitive advantages, e.g. product differentiation, efficiency
+3. Core competencies, e.g. ability to innovate 
