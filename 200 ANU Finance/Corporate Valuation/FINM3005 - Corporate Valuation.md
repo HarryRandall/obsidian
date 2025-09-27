@@ -7,7 +7,7 @@ Week 4: [[Forecasting & Model Integrity]]                            $\;$|| [[Wo
 Week 5: [[Cost of capital]]                                                     $\;$|| [[Workshop 4]] || [[Tutorial 4]]
 Week 6: [[Incorporating growth potential]]                          $\;$|| [[Workshop 5]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 6| Tutorial 5]] 
 Week 7: Multiple-based valuations
-Week 8: Asset-based valuations
+Week 8: [[Asset-based valuations]]
 Week 9: Sensitivity and scenario analysis
 Week 10: Forming a recommendation
 Week 11: Special issues
