@@ -6,13 +6,8 @@ Week 3: [[Debugging In Dafny]]     || [[300 ANU Computing/Theoretical Computer S
 Week 4: [[Induction & Recursion]]  || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 4|Tutorial 4]]
 Week 5: [[Dafny & Lists]]                 || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 5|Tutorial 5]] 
 Week 6: [[Advanced Induction]]      || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 6|Tutorial 6]]
-<<<<<<< HEAD
 Week 7: [[Tree Induction]]               || [[Tutorial 7]]
-Week 8:
-=======
-Week 7: [[Tree Induction]]
-Week 8: [[Termination]]
->>>>>>> f7cc657a45099a9f31a20864887d8df6e63df565
+Week 8: [[Termination]]                   || [[Tutorial 8]]
 Week 9:
 Week 10:
 Week 11:
