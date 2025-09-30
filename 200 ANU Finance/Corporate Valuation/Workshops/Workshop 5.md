@@ -3,4 +3,4 @@
 **Tags**: 
 
 ---
-No lecture this week.
+No workshop this week.

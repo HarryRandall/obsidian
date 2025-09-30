@@ -3,6 +3,7 @@
 **Tags**: #chapter-13
 
 ---
+KGW: Chapter 10 Review Questions 1, 2, 4, 6
 ## Review Questions
 
 1. Bangalore Bread is an Indian producer of breads and other baked goods. Over the past year, profitability has been strong, and the share price has risen from 15 rupees per share to 25 rupees per share. Financial analysts expect the profit growth to continue. The company has 20 million shares outstanding. Its borrowing is conservative: the company has only 100 million rupees in debt. The debt trades at par, yielding to maturity 50 basis points above Indian risk-free bonds. Bangalore Bread has a market beta of $0.7$. If the Indian risk-free rate is $7\%$, the market risk premium is $5\%$, and the marginal tax rate is $30\%$, what is Bangalore Bread’s cost of capital? (Assume that the current capital structure is the target capital structure going forward.)

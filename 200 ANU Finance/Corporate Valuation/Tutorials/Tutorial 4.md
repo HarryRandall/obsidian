@@ -3,3 +3,4 @@
 **Tags**: 
 
 ---
+KGW: Chapter 6 Review Questions 1 – 8

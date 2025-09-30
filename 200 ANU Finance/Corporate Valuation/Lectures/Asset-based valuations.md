@@ -20,7 +20,7 @@ Two forms:
 
 - No. of shares: all classes of ordinary shares (some classes of shares might carry less than one or no voting rights).
 - NTA preferred when valuing intangible assets is subjective or 'grey' - e.g. 20% of P&G and Unilever's total assets are the value of their intangible assets: brand names.
-- Cenceptually appropriate to dilute for options, etc. Although rarely done in practice, give it some consideration.
+- Conceptually appropriate to dilute for options, etc. Although rarely done in practice, give it some consideration.
 - Premium over NetBookValue is sometimes attributed to 'franchise value'.
 - Better when asset backing is meaningful, e.g. REITs, financials.
 

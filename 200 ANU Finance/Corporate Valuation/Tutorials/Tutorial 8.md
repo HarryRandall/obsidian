@@ -3,3 +3,5 @@
 **Tags**: 
 
 ---
+Damodaran: Chapter 19 Review Questions 1 – 3#; KGW Chapter  
+17 Review Questions 1, 2, 7, 8

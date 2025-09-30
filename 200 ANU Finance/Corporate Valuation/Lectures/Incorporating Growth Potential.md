@@ -99,4 +99,23 @@
 	- Merger benefits paid to target's shareholders / winner's curse.
 	- Merger costs are often under-estimated.
 	- Merger activity often occurs at the top of the cycle
-- 
+
+## Relevance for Assignments
+- Organic growth of existing operations should be incorporated in your model and forecasts.
+- Analysis of investment, acquisitions and other growth opportunities is optional.
+- A checklist of possibilities to consider
+	- New projects? Do a NPV.
+	- Aggressive over-investment (or underinvestment) by company or industry? Analyse a possible scenario (Week 9)
+	- M&A activity a real possibility? Create value impact.
+	- Possible divestments? Do a NPV.
+- Put yourself in the shoes of executives, consider organic growth, acquisitions and possible investment opportunities.
+
+## Common DCF Valuation Errors
+1. Failing to subject forecast ROIC to a reality check.
+2. Understanding capex, so that asset turnover blows out.
+3. Modelling business portfolios with no provision for losers
+4. Poorly specific value
+	- Using CV as the accelerator or brake to offset other errors
+	- Capitalising unsustainably high NOPLAT in final period
+	- Unjustifiable / inadvertent allowance for ongoing value-creation
+5. Disconnection between growth rate and WACC
