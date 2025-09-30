@@ -1,157 +1,27 @@
 /* The type of lists used throughout the tutorial */
 datatype List<T> = Nil | Cons(head: T, tail: List<T>)
 
-/*--------------------------------------*/
-/* COMP 1600/6260 Tutorial 8 Exercise 1 */
-/*--------------------------------------*/
+// /* We define a type of propositional formulae that just uses          */
+// /* negation and disjunction,  propositional variables  and false.     */
+// /* We have a variable for each natural number.                        */
+datatype F0 = False0 | Not0(a: F0) | Or0(a: F0, b:F0) | Var0 (n: nat)
+// // New datatype F0, which is false
+// // Not0(a: F0) = Not A
+// // Or0(a: F0, b:F0) = A or B
+// // Var0 (n: nat) = p_n
 
-/* We define a type of propositional formulae that just uses          */
-/* negation and disjunction,  propositional variables  and false.     */
-/* We have a variable for each natural number.                        */
-datatype F0 = Bot0 | Not0(a: F0) | Or0(a: F0, b:F0) | PV0 (n: nat)
-
-/* As our variables are numbered by naturals, a valuation is a        */
-/* function from natural numbers to bool. Given a valuation, we can   */
-/* compute the truth value of a formula                               */
+// /* As our variables are numbered by naturals, a valuation is a        */
+// /* function from natural numbers to bool. Given a valuation, we can   */
+// /* compute the truth value of a formula                               */
 function eval0 (a: F0, sigma: nat -> bool) : bool {
     match a {
-        case Bot0 => false
+        case False0 => false
         case Not0(a) => ! eval0(a, sigma)
         case Or0(a, b) => eval0(a, sigma) || eval0(b,sigma)
-        case PV0(n) => sigma(n)
+        case Var0(n) => sigma(n)
     }
 }
 
-/* We now define a second type of propositional formulae where we     */
-/* form Disjunction over lists of formulae, rather than just two      */
-/* formulae. In particular, we can take false as the disjunction over */
-/* the empty list (of formulae).                                      */
-datatype F1 =  Or1 (l: List<F1>) | Not1 (a: F1) | PV1(n: nat)
-
-/* The following function computes the evaluation of a formula given  */
-/* a valuation. We define the size of a formula of type 1 as a        */
-/* mutually recursive function like so:                               */
-function size1 (f: F1) : nat {
-    match f {
-        case PV1(n) => 1
-        case Not1(f) => 1 + size1(f)
-        case Or1(l) => 1 + size1_l(l)
-    }
-}
-function size1_l (l: List<F1>) : nat {
-    match l { 
-        case Nil => 0
-        case Cons(h, t) => size1(h) + size1_l(t)
-
-    }
-}
-
-/* This lemma shows that the size of a formula indeed decreases.      */
-/* We need this for one recursive call.                               */
-lemma size1_disj(h: F1, t: List<F1>) 
-ensures size1(h) < size1(Or1(Cons(h, t)))
-{ }
-
-/* we can now define the evaluation of a formula of type 1 by make    */
-/* its size decreasing.                                               */
-function eval1 (w: F1, sigma: nat -> bool): bool 
-decreases (size1(w)) {  
-    match w { 
-        case PV1(n) => sigma(n)
-        case Not1(a) => ! eval1(a, sigma)
-        case Or1(Nil) => false
-        case Or1(Cons(h, t)) => size1_disj(h, t); eval1(h, sigma) || eval1 (Or1(t), sigma)
-    }
-}
-
-/* the following translates a function of type 1 to a formula of      */ 
-/* type 0.                                                            */ 
-function tr10 (w: F1) : F0
-decreases size1(w) {
-    match w {
-        case PV1(n) => PV0(n)
-        case Not1(a) => Not0(tr10(a))
-        case Or1(Nil) => Bot0
-        case Or1(Cons(h, t)) => size1_disj(h, t); Or0(tr10(h), tr10(Or1(t)))
-    }
-} 
-
-/* We show that the translation of a formula preserves its truth value  */
-lemma tr10_corr(w: F1, sigma: nat -> bool)
-ensures eval1(w, sigma) == eval0(tr10(w), sigma)
-decreases size1(w) 
-{ 
-    match w {
-        case PV1(n) => { }
-        case Not1(a) => { tr10_corr(a, sigma); }
-        case Or1(Nil) => { }
-        case Or1(Cons(h, t)) => size1_disj(h, t); { 
-            tr10_corr(h, sigma); 
-            tr10_corr(Or1(t), sigma);
-        }
-    }
-
-}
-/*--------------------------------------*/
-/* COMP 1600/6260 Tutorial 8 Exercise 2 */
-/*--------------------------------------*/
-
-/* The Euclidean algorithm is one of the most famous algorithms ever  */
-/* and computes the greatest common divisor of two numbers.           */
-/* To make things simpler, we assume that the first number is always  */
-/* larger. We show that the result of the algorithm always divides    */
-/* both numbers, and that it is the largest number with this          */
-/* property.  */
-
-/* We are using the following definition of divides: */
-ghost predicate divides (n: nat, m: nat) { exists k : nat :: m == k * n }
-function euclid (n: nat, m: nat) : nat 
-requires m <= n
-{
-    if (m == 0) then n else euclid(m, n % m)
-}
-
-/* The result of euclid divides both arguments:                       */
-lemma euclid_corr (n: nat, m: nat) 
-requires m <= n
-ensures divides (euclid(n, m), n) && divides (euclid(n, m), m)
-{
-    if (m == 0) { 
-        assert n == 1 * euclid(n, m);
-        assert m == 0 * euclid(n, m);
-     } else {
-        var k :|  m == k * euclid (m, n % m);
-        var l :| n % m  == l * euclid(m, n % m);
-        /* as m > 0 have euclid(n, m) == euclid(m, n % m) */
-        /* hence euclid(n, m) divides both m and n % m */
-        /* but n = m * (n/m) + n % m and thsi is a multiple */
-        /* of euclid using equations above: */
-        assert (n == (l + (n/m) * k) * euclid(n, m));
-     }
-}
-
-/* The result of euclid is the largest such number. Here we need      */
-/* m < n as otherwise we could have n = m = 0 whence euclid(n, m) = 0 */
-/* But we can have c = 1 > 0 such that c divides both n = m = 0.      */
-lemma euclid_max(n:nat, m: nat)
-requires m < n
-ensures forall c:nat :: divides(c,n) && divides(c,m) ==> c <= euclid(n,m)
-{  forall c:nat | divides(c,n) && divides(c,m) ensures c <= euclid (n,m) {
-    if (m > 0) {
-            var k : nat :| n == k * c;
-            var l : nat :| m == l * c;
-            assert n % m == (k - (l * (n/m))) * c;
-            /* from IH: if c divides both n, m, then c <= euclid(m, n % m) */
-            /* given that euclid(n, m) = euclid(m, n % m) just need to show that */
-            /* c divides n % m which is what we do above. The rest is automatic. */
-            
-        }
-    }
-}
-
-/* tut08-ex2-end   */
-
-/* tut08-ex3-begin */
 /*--------------------------------------*/
 /* COMP 1600/6260 Tutorial 8 Exercise 3 */
 /*--------------------------------------*/
@@ -163,18 +33,24 @@ ensures forall c:nat :: divides(c,n) && divides(c,m) ==> c <= euclid(n,m)
 /* and we can think of a negative propositional variable as not p,    */
 /* for a variable p.                                                  */
 
-function sizeF0(a: F0): nat
-  decreases a
-{
+datatype F2 = True2 | False2 | Or2(a: F2, b: F2) | And2 (a: F2, b: F2) | PosVar2(n: nat) | NegVar2(n: nat)
+
+
+// We define a function that takes in a formula, and returns the size
+// of the nodes in the tree.
+function sizeOfF0(a: F0): nat
+  decreases a{
   match a
-  case Bot0 => 1
-  case PV0(y) => 1
-  case Not0(x) => 1 + sizeF0(x)
-  case Or0(x, y) => 1 + sizeF0(x) + sizeF0(y)
+    // False has a size of 1
+    case False0 => 1
+    // A variable counts as 1
+    case Var0(y) => 1
+    // Not has the Not + the variable inside of the not, so 2.
+    // we add 1 and recurse through the function
+    case Not0(x) => 1 + sizeOfF0(x)
+    // Or counts are 3, as we have the or statement, plus the two variables.
+    case Or0(x, y) => 1 + sizeOfF0(x) + sizeOfF0(y)
 }
-
-
-datatype F2 = Top2 | Bot2 | Or2(a: F2, b: F2) | And2 (a: F2, b: F2) | PPV2(n: nat) | NPV2(n: nat)
 
 
 /* using  not (a /\ b) = (not a) \/ (not b)  and                      */
@@ -183,58 +59,118 @@ datatype F2 = Top2 | Bot2 | Or2(a: F2, b: F2) | And2 (a: F2, b: F2) | PPV2(n: na
 /* defined as follows:                                                */
 function nnf(a: F0) : F2 
 // decreases /* your decreases clause */
-decreases sizeF0(a) 
+// Add the decreases clause for the nnf function.
+decreases sizeOfF0(a) 
 {
-    match a {   
-                case Bot0 => Bot2
-                case PV0(n) => PPV2(n)
-                case Or0(c, d) => Or2 (nnf(c), nnf(d))
-                case Not0(Bot0) => Top2
-                case Not0(PV0(n)) => NPV2(n)
-                case Not0(Or0(e, f)) => And2(nnf(Not0(e)), nnf(Not0(f)))  
-                case Not0(Not0(a)) => nnf(a)
-            }
+  match a {   
+    case False0 => False2
+    case Var0(n) => PosVar2(n)
+    case Or0(c, d) => Or2 (nnf(c), nnf(d))
+    case Not0(False0) => True2
+    case Not0(Var0(n)) => NegVar2(n)
+    case Not0(Or0(e, f)) => And2(nnf(Not0(e)), nnf(Not0(f)))  
+    case Not0(Not0(a)) => nnf(a)
+  }
 }   
 
 /* We evaluate a negation normal form formula as expected:            */
 function eval2 (a: F2, sigma: nat -> bool) : bool 
 {
     match a {
-        case Top2 => true
-        case Bot2 => false
+        case True2 => true
+        case False2 => false
         case And2(a, b) => eval2(a, sigma) && eval2(b, sigma)
         case Or2(a, b)  => eval2(a, sigma) || eval2(b, sigma)
-        case PPV2(n) => sigma(n)
-        case NPV2(n) => ! sigma(n)
+        case PosVar2(n) => sigma(n)
+        case NegVar2(n) => ! sigma(n)
     }
 }
 /* And the following shows that the negation normal form translation  */
 /* preserves the truth of a formula.                                  */
 /* Correctness of negation normal form translation:                   */
-lemma nnf_corr(a: F0, sigma: nat -> bool)
+
+// Question 2
+
+// match a {
+//         case False0 => false
+//         case Not0(a) => ! eval0(a, sigma)
+//         case Or0(a, b) => eval0(a, sigma) || eval0(b,sigma)
+//         case Var0(n) => sigma(n)
+//     }
+
+// match a {
+//     case True2 => true
+//     case False2 => false
+//     case And2(a, b) => eval2(a, sigma) && eval2(b, sigma)
+//     case Or2(a, b)  => eval2(a, sigma) || eval2(b, sigma)
+//     case PosVar2(n) => sigma(n)
+//     case NegVar2(n) => ! sigma(n)
+// }
+
+
+
+lemma negationNormalForm_corr(a: F0, sigma: nat -> bool)
+// we are testing for any formula 'a' with the type of formula0,
+// and any value 'sigma', that eval0 == eval2(nnf(a))
   ensures eval0(a, sigma) == eval2(nnf(a), sigma)
-  decreases sizeF0(a)
+// decreases clause previously defined.
+  decreases sizeOfF0(a)
 {
   match a
-  case Bot0 =>
-  case PV0(_) =>
+  // Case: False
+  // eval0(false0, sigma) = false
+  // nnf(False0) = False 2, eval2(False2, sigma) = false
+  // therefore they're both false.
+  case False0 =>
+  // Case: Variable
+  // Next we have some arbitary variable
+  // eval0(Var0(n), sigma) = sigma(n)
+  // nnf(Var0(n)) = PosVar2(n)
+  // and eval2(PosVar2(n), sigma) = sigma(n)
+  // they're both equal.
+  case Var0(n) =>
+  // Case: Or
+  // Now we look on the induction hypothesis
+  // We assume that it holds for both C and D
+  // from the subformulas, so it holds for Or(c,d)
   case Or0(c, d) =>
-    assert sizeF0(c) < sizeF0(Or0(c,d));
-    nnf_corr(c, sigma);
-    assert sizeF0(d) < sizeF0(Or0(c,d));
-    nnf_corr(d, sigma);
+    negationNormalForm_corr(c, sigma);
+    negationNormalForm_corr(d, sigma);
+  // Case not:
   case Not0(x) =>
     match x
-    case Bot0 =>
-    case PV0(_) =>
-    case Or0(e, f) =>
-      assert sizeF0(Not0(e)) < sizeF0(Not0(Or0(e,f)));
-      nnf_corr(Not0(e), sigma);
-      assert sizeF0(Not0(f)) < sizeF0(Not0(Or0(e,f)));
-      nnf_corr(Not0(f), sigma);
-    case Not0(y) =>
-      assert sizeF0(y) < sizeF0(Not0(Not0(y)));
-      nnf_corr(y, sigma);
+      // this is siilar to the first one, but we have no0,
+      // so we have eval0(Not0(False0, sigma)) = !false = true
+      // nnf(Not0(False0)) = True2
+      // eval2(True2, sigma) = true
+      // therefore this case is all good and we don't need to assert
+      case False0 =>
+      // this as well is similar, we have
+      // eval0(Not0(Var0(n)), sigma) = !sigma(n)
+      // nnf(Not0(Var0(n))) = NegVar2(n)
+      // eval2(NegVar2(n), sigma) = !sigma(n)
+      // These two statements now match, so we're done.
+      case Var0(n) =>
+
+      // The De Morgans case is a little more difficult
+      // We split it into two sides, the left hand side being
+      // eval0(not0(Or0(e, f), sigma)) = !(eval0(e,sigma) || eval0(f,sigma))
+      // the right hand side is nnf(Not0(or0(e,f))) = And2(nnf(Not0(e)), nnf(Not0(f)))
+      // by demorgans law, !(E || F) = (!E & !F)
+      // so we need the function to hold for both of these recurisve cases.
+      case Or0(e, f) =>
+        negationNormalForm_corr(Not0(e), sigma);
+        assert sizeOfF0(Not0(f)) < sizeOfF0(Not0(Or0(e,f)));
+        negationNormalForm_corr(Not0(f), sigma);
+      
+
+    // The other subcase is for Not, we have double negation
+    // eval0(Not0(Not0(y)), sigma) = eval0(y, sigma)
+    // nnf(Not0(Not0(y))) = nnf(y)
+    // so you only need the induction hypothesis on y
+      case Not0(y) =>
+        assert sizeOfF0(y) < sizeOfF0(Not0(Not0(y)));
+        negationNormalForm_corr(y, sigma);
 }
 
 /* tut08-ex3-end */
