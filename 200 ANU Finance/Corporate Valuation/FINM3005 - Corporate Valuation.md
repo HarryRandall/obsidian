@@ -8,7 +8,7 @@ Week 5: [[Cost of Capital]]                                                     
 Week 6: [[Incorporating Growth Potential]]                          $\;$|| [[Workshop 5]] ||[[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 5| Tutorial 5]] 
 Week 7: [[Multiple-based valuations]]                                  $\;$|| [[Workshop 6]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 6|Tutorial 6]] 
 Week 8: [[Asset-based Valuations]]                                        || [[Workshop 7]] || [[Tutorial 7]] 
-Week 9: Sensitivity and scenario analysis                          || [[Workshop 8]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 8|Tutorial 8]] 
+Week 9: [[Sensitivity and scenario analysis]]                          || [[Workshop 8]] || [[200 ANU Finance/Corporate Valuation/Tutorials/Tutorial 8|Tutorial 8]] 
 Week 10: Forming a recommendation
 Week 11: Special issues
 Week 12: Review
