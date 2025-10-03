@@ -100,10 +100,27 @@ Which of the following Hoare Triples is valid?
 - $\{\bot\}\; \text{if }(x < 0)\;\text{then } x := -x \;\{P\}$
 	- This by the same argument as before, will be valid.
 
-
 - $\{P\}\; \text{while }(x < 0)\; x := x - 1 \;\{P\}$
-	- 
+	- The precondition is undefined
+	- If $x$ is $< 0$, then the while loop in non-terminating.
+	- If $x > 0$ then we have the same value, nothing changes.
+	- As there is no counter example, this is valid.
 
+### What are Programs?
+- In a Hoare triple {P} program {S}, what are the programs?
 
-- $\{x > 0\}\; \text{while }(x! = 0)\; x := x - 2 \;\{x < 1\}$
+**Simple Imperative Language**
+- Assignment **x := e**
+	- Where **x** is a variable, and **e** is an expression built from variables and arithmetic that returns a number
+	- Examples:
+		- 2 + 3
+		- $x \times y + 1 \dots$
+- Sequencing **$S_1;S_2$**
+- Conditional **if b then $S_1$ else $S_2$**
+	- where $b$ is an expression built from variables arithmetic and logic that returns a Boolean (true or false).
+	- Examples
+		- $y < 0$
+		- $x \neq y \land z = 0 /dots$ 
+- While **b do s**
 
+## Lecture 2
