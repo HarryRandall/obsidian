@@ -1,17 +1,17 @@
 ### Course Summary
 
 Week 1: [[Introduction to Regression Modelling]]
-Week 2: [[Parameter interpretation and estimation]]
-Week 3: [[ANOVA & Coefficient Inference]]
-Week 4: [[Hypothesis Testing & Diagnostics in SLR]]
-Week 5: [[Influential Observations & Scale Transformations]]
-Week 6: [[Matrix Algebra & Intro to MLR]]
-Week 7: [[Inference & ANOVA in MLR]]
-Week 8: [[Multicollinearity & Polynomial Regression]]
-Week 9: [[Qualitative Variables in MLR]]
-Week 10: [[Model & Multicollinearity Diagnostics]]
-Week 11: [[Model Selection & Comparison Criteria]]
-Week 12: [[Review & Exam Preparation]]
+Week 2: [[Parameter interpretation and estimation]]                  || [[Tutorial 1a]]
+Week 3: [[ANOVA & Coefficient Inference]]                                || [[Tutorial 1a]]
+Week 4: [[Hypothesis Testing & Diagnostics in SLR]]                  || [[Tutorial 1a]]
+Week 5: [[Influential Observations & Scale Transformations]]     || [[Tutorial 1a]]
+Week 6: [[Matrix Algebra & Intro to MLR]]                                  || [[Tutorial 1a]]
+Week 7: [[Inference & ANOVA in MLR]]                                       || [[Tutorial 1a]]
+Week 8: [[Multicollinearity & Polynomial Regression]]                || [[Tutorial 1a]]
+Week 9: [[Qualitative Variables in MLR]]                                      || [[Tutorial 1a]]
+Week 10: [[Model & Multicollinearity Diagnostics]]                    || [[Tutorial 1a]]
+Week 11: [[Model Selection & Comparison Criteria]]                  || [[Tutorial 1a]]
+Week 12: [[Review & Exam Preparation]]                                     || [[Tutorial 1a]]
 
 ---
 ### Assessments
@@ -27,7 +27,7 @@ Week 12: [[Review & Exam Preparation]]
 - 3-4 students, randomly allocated from tutorials.
 - Present the findings in front of our tutorial, short presentation.
 - Must go to the tutorial to get marks
-##### Assessment Item 3 (Assignment, 10%)
+##### Assessment Item 3 (Assignment, 15%)
 - Individual Assignment
 - Covers material up until week 9.
 - Individual, written report.

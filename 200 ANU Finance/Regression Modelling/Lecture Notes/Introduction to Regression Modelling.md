@@ -3,7 +3,7 @@
 **Tags**: #Rstudio
 
 ---
-#### Youtube Introduction
+## Youtube Introduction
 ##### Objectives of regression
 - Regression is a means of exploring the **variation** in some quantity.
 	- Why Heart Rate various
@@ -26,33 +26,32 @@ Where:
 
 **Estimating the 'betas'**
 
-#### Lecture 1
-##### Introduction to Regression
+## Lecture 1
+### Introduction to Regression
 
 - Started with studying dependence of one **outcome/response** variable on one **predictor/explanatory** variable.
 - We can also have more than one explanatory variable.
 - In this course, we will study **linear regression**.
 
-##### Types of Linear Regression
+### Types of Linear Regression
 
 - **Simple Linear Regression (SLR)**: association between two variables.
 - **Multiple Linear Regression (MLR)**: extension of SLR to include multiple explanatory variables.
 
-##### Goals of Regression Analysis
+### Goals of Regression Analysis
 - Assess the fit of the model ensuring assumptions are met.
 - Diagnose any violations and errors.
 - Remedy these violations and errors.
 - Finally, make inferences.
 
-##### What Linear Models Can Do
-
+### What Linear Models Can Do
 - Description
 - Prediction
 - Control
 
 > Regression models show **association**, not **causation**.
 
-##### Example Questions
+### Example Questions
 
 1. Are daughters taller than mothers?
 2. Does changing class size affect student success?
@@ -62,20 +61,20 @@ Where:
 
 ---
 
-#### Lecture 2
-##### Population and Sample
+## Lecture 2
+### Population and Sample
 
-###### Population (true world)
+**Population (true world)**
 - A collection of the whole of something that you are interested in.
 - Parameters: true values describing the population (e.g., $\mu$, $\sigma^2$) — usually unknown.
 
-###### Sample (your subjective world)
+**Sample (your subjective world)**
 - A set of individuals randomly drawn from the population.
 - Statistics: values calculated from the sample that serve as estimators of parameters (e.g., $\bar{X}$, $S^2$).
 - The sample should ideally represent the population.
 
 ---
-##### Properties of Estimators
+### Properties of Estimators
 - It has random variables ($\bar{X}$).
 - It has a probability distribution, often called a sampling distribution.  
 $$E(X) = μ, Var(\bar{X}) = \frac{σ^2}{n}$$ 
@@ -86,19 +85,17 @@ $$E(X) = μ, Var(\bar{X}) = \frac{σ^2}{n}$$
 
 ---
 
-##### Regression
+### Regression
 - A statistical methodology that describes the relation between two or more variables so that a response or outcome variable can be estimated from explanatory variables.
 - Widely used in business, the social and behavioural sciences, the biological sciences, and many other disciplines.
 
-###### Example 1
-
+**Example 1**
 - Predict sales of a product using the relationship between sales and advertising spending.
 - Use a Simple Linear Regression Model:
     - 1 Explanatory Variable
     - 1 Outcome Variable
 
-###### Example 2
-
+**Example 2**
 - Does the price of a house increase with increase in living area?
 - Use a Multiple Linear Regression Model with multiple predictors:
     - Many Explanatory Variables
@@ -108,37 +105,38 @@ $$E(X) = μ, Var(\bar{X}) = \frac{σ^2}{n}$$
 
 ---
 
-##### Relation Between Variables
+### Relation Between Variables
 
-###### Functional Relation
+**Functional Relation**
 - Expressed as a perfect mathematical formula:  
 $$ Y=f(X)Y = f(X)$$
 - A perfect mapping from $X$ to $Y$.
-###### Statistical Relation
+
+**Statistical Relation**
 - Not perfect - observations are typically **scattered** around the curve.
 - Not all of the points lie on the line in a statistical relationship.
 
 ![Functional vs Statistical Relationship](Pasted%20image%2020250723123716.png)
 
 ---
-##### Construction of Regression Models
+### Construction of Regression Models
 - **X**: independent variable, predictor, regressor, covariate
 - **Y**: dependent variable, response, outcome, output
 - Include only a limited number of **useful** covariates.
 
-###### How do you choose covariates?
+**How do you choose covariates?**
 - Through exploratory studies
 - Based on existing theory
 
 ---
-##### Functional Form of Regression Relation
+### Functional Form of Regression Relation
 - The choice of $f$ in $Y = f(X)$ is tied to the choice of covariates.
 - Sometimes theory guides the appropriate form of $f$.
 - Often determined empirically - scatter plots are helpful.
 - Linear or quadratic forms are often a good starting point.
 
 ---
-##### Scope of Models
+### Scope of Models
 - Models are typically restricted to a certain **interval** or **region** of data.
 - Scope is determined by:
     - The design of the investigation
