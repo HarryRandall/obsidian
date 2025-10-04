@@ -123,4 +123,7 @@ Which of the following Hoare Triples is valid?
 		- $x \neq y \land z = 0 /dots$ 
 - While **b do s**
 
+---
 ## Lecture 2
+### Assignment
+**Assignment Axiom**
