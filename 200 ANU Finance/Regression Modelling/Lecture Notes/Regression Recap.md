@@ -2,11 +2,11 @@
 **Tags**: #Regression
 
 ---
-## Introduction to Regresseion
+## Introduction to Regression
 
 ![[Pasted image 20251004103529.png]]
 
-- The scatter-plot above represents  people going to the pub on a Friday afternoon with tempreatures.
+- The scatter-plot above represents  people going to the pub on a Friday afternoon with temperatures.
 - Can we turn this into some sort of equation?
 - Can we access the strength of that relationship?
 - Those two questions is all about what regression is about.
