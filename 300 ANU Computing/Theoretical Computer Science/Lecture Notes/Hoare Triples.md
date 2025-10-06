@@ -120,10 +120,151 @@ Which of the following Hoare Triples is valid?
 	- where $b$ is an expression built from variables arithmetic and logic that returns a Boolean (true or false).
 	- Examples
 		- $y < 0$
-		- $x \neq y \land z = 0 /dots$ 
+		- $x \neq y \land z = 0 \dots$ 
 - While **b do s**
 
 ---
 ## Lecture 2
-### Assignment
-**Assignment Axiom**
+
+```c
+lemma assignment_example ()
+{
+    // setup so that Dafny accepts the first assert
+    var x, y: int := *, *;
+    assume {:axiom} (y * y + y >= 42);
+
+    // assignment axiom in Dafny.
+    // the two asserts before and after the assignment
+    // are the pre- and postcondition.
+    // asserts before and after the assignment
+    assert (y * y + y >= 42); //precondition x + y >= 42 [x \ y * y]
+							  // = y * y + y >= 42
+    x := y * y;
+    assert (x + y >= 42); //postcondition: x + y >= 42
+}
+```
+
+```c
+lemma precond_strengthen_example ()
+{
+    // setup for first assert
+    var x, y: int := *, *;
+    assume {:axiom} (y * y + y >= 42);
+
+    assert (y * y + y == 42);  // first assert is stronger and
+    assert (y * y + y >= 42);  // implies the second
+    x := y * y;
+    assert (x + y >= 42);
+}
+```
+
+### Pre-Postcondition Rules
+
+**Postcondition Weakening**
+
+- Suppose $\{P\}\ S\ \{Q\}$ is valid, and $Q \Rightarrow Q'$ is valid.  
+- This means that every state that makes $Q$ true also makes $Q'$ true.  
+- So $\{P\}\ S\ \{Q'\}$ is true as well.  
+- Example:  
+  $\{2 = 2\}\ x := 2\ \{x = 2\}$ and $x = 2 \Rightarrow x > 0$ implies  
+  $\{2 = 2\}\ x := 2\ \{x > 0\}$  
+
+If $Q \Rightarrow Q'$, then $Q'$ is **weaker** than $Q$.
+
+---
+
+### Precondition Strengthening
+
+- Suppose $P' \Rightarrow P$ and $\{P\}\ S\ \{Q\}$ is valid.  
+- Then so is $\{P'\}\ S\ \{Q\}$ (analogous).
+
+If $P' \Rightarrow P$, then $P'$ is **stronger** than $P$.
+
+$$
+\frac{\{P\}\ S\ \{Q\}}{\{P'\}\ S\ \{Q\}} \text{ if } (P' \Rightarrow P)
+\quad\quad
+\frac{\{P\}\ S\ \{Q\}}{\{P\}\ S\ \{Q'\}} \text{ if } (Q \Rightarrow Q')
+$$
+
+### Examples
+
+$\{y = 2\}\ x := y\ \{x > 0\}$
+
+1. From assignment $\{y = 2\}\ x := y\ \{x = 2\}$ and $x = 2 \Rightarrow x > 0$  
+2. Or from assignment $\{y > 0\}\ x := y\ \{x > 0\}$ and $y = 2 \Rightarrow y > 0$
+
+### Precondition Strengthening in Dafny
+
+```c
+lemma precond_strengthen_example ()
+{
+    // setup for first assert
+    var x, y: int := *, *;
+    assume {:axiom} (y * y + y == 42);
+
+    assert (y * y + y == 42); // first assert is stronger and
+    assert (y * y + y >= 42); // implies the second
+    x := y * y;
+    assert (x + y >= 42);
+}
+```
+
+---
+## Lecture 3
+### if-Statements 101
+
+#### General Form of an If-Statement
+
+```
+if b then S₁ else S₂
+```
+
+- $b$ is a boolean condition that evaluates to true or false  
+- The value of $b$ may depend on the program state  
+
+---
+
+#### Informal Reasoning: Case Split
+
+- If $b$ evaluates to true, then run $S₁$. We may assume $b$ as an additional precondition.  
+- If $b$ evaluates to false, run $S₂$. We may assume $\lnot b$ as an additional precondition.  
+
+---
+
+#### Formal Rule
+
+$\{P\}\ \text{if } b\ \text{then } S_1\ \text{else } S_2\ \{Q\}$  
+
+Premises:
+
+$$\displaystyle
+\frac{
+\{P \land b\}\ S_1\ \{Q\}
+\quad
+\{P \land \lnot b\}\ S_2\ \{Q\}
+}{
+\{P\}\ \text{if } b\ \text{then } S_1\ \text{else } S_2\ \{Q\}
+}
+$$
+### Example: Factorial
+
+**Precondition:**  
+$\{n \geq 0\}$  
+
+**Program:**
+```c
+fact := 1;
+k := n;
+while (k > 0)
+    fact := fact * k;
+    k := k - 1;
+```
+
+**Postcondition:**  
+$\{fact = n!\}$  
+
+**Discussion Points** 
+- Is this Hoare triple valid?  
+- What if $n < 0$ initially?  
+- Why do we need to use another variable $k$ instead of just $n$?  
+- How can we "push our assertions over the loop"?  
