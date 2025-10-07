@@ -1,17 +1,17 @@
 ### Course Summary
 
 Week 1: [[Introduction to Regression Modelling]]
-Week 2: [[Parameter interpretation and estimation]]                  || [[Tutorial 1a]]
-Week 3: [[ANOVA & Coefficient Inference]]                                || [[Tutorial 1a]]
-Week 4: [[Hypothesis Testing & Diagnostics in SLR]]                  || [[Tutorial 1a]]
+Week 2: [[Parameter interpretation and estimation]]                    || [[Tutorial 1a]]
+Week 3: [[ANOVA & Coefficient Inference]]                                    || [[Tutorial 1a]]
+Week 4: [[Hypothesis Testing & Diagnostics in SLR]]                   || [[Tutorial 1a]]
 Week 5: [[Influential Observations & Scale Transformations]]     || [[Tutorial 1a]]
-Week 6: [[Matrix Algebra & Intro to MLR]]                                  || [[Tutorial 1a]]
-Week 7: [[Inference & ANOVA in MLR]]                                       || [[Tutorial 1a]]
-Week 8: [[Multicollinearity & Polynomial Regression]]                || [[Tutorial 1a]]
-Week 9: [[Qualitative Variables in MLR]]                                      || [[Tutorial 1a]]
-Week 10: [[Model & Multicollinearity Diagnostics]]                    || [[Tutorial 1a]]
-Week 11: [[Model Selection & Comparison Criteria]]                  || [[Tutorial 1a]]
-Week 12: [[Review & Exam Preparation]]                                     || [[Tutorial 1a]]
+Week 6: [[Matrix Algebra & Intro to MLR]]                                      || [[Tutorial 1a]]
+Week 7: [[Inference & ANOVA in MLR]]                                           || [[Tutorial 1a]]
+Week 8: [[Multicollinearity & Polynomial Regression]]                   || [[Tutorial 1a]]
+Week 9: [[Qualitative Variables in MLR]]                                          || [[Tutorial 1a]]
+Week 10: [[Model Diagnostics & Influence Diagnostics]]                     || [[Tutorial 1a]]
+Week 11: [[Model Selection & Comparison Criteria]]                      || [[Tutorial 1a]]
+Week 12: [[Review & Exam Preparation]]                                         || [[Tutorial 1a]]
 
 ---
 ### Assessments

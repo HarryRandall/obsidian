@@ -8,8 +8,11 @@
 
 For the partial loop specifications on the left, written in Dafny syntax:  
 (a) Determine whether the code preceding the loop establishes the invariant 
-- 
+1) Well the invariant for 1 is true, so this always holds.
+2) This also holds for the precondition, as $i \leq 0$ 
 (b) Determine whether the invariant, together with the negation of the loop condition, establishes the assert statement after the loop  
+3) No, you don't reach the assert as this is an infinite loop
+4) No, same as above, infinite loop.
 
 For the loop specification on the right:  
 (a) Give a value of `i` that violates the assert statement but satisfies both the invariant and the negation of the loop condition  
