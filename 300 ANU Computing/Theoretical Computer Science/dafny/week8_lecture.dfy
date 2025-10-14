@@ -1,5 +1,5 @@
 // Non-Terminating Example
-function nt(n: nat) : nat { nt(n) + 1} 
+// function nt(n: nat) : nat { nt(n) + 1} 
 
 
 // Lecture 1 Code

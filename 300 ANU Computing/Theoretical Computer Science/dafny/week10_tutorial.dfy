@@ -41,57 +41,68 @@ Answer = 2 r 0
 // }
 
 
-method bump_to_n(n: int) returns (i: int)
-  requires n >= 0
-  ensures i == n
-{
-  i := 0;
-  while (i < n)
-    // TODO: invariant(s)
-    // TODO: decreases(...)
-    invariant i <= n
-  {
-    i := i + 1;
-  }
-}
+/* 
+Question 1)
+nodup function goes through each pair of values in a and compares their values
+If it finds anything equal, b is set to false. The loop has ensures b==true and 
+makes sure using if an only if elements are distinct, which matches dup_free spec.
+
+nodup_srt is similar, but it's a sorted list so all items are next to each other.
+This way it can just check neigbouring values using a[m] and a[m-1] and sets the flag
+b to false if it finds it.
+
+Both functions verify dup_free(a) in different ways, but they both work.
+*/
 
 
-method countdown(n: int) returns (z: int)
-  requires n >= 0
-  ensures z == 0
-{
-  var k := n;
-  while (k > 0)
-    // TODO: invariant(s)
-    // TODO: decreases(...)
-  {
-    k := k - 1;
-  }
-  z := k;
-}
-
-
-
+// Question 2 
 predicate dup_free(a: seq<int>)
+// Checking that the sequence of integers is duplicate free
+// Predicate is basically a bool function, returns true or false.
+{ forall i: int, j : int :: 
+    0 <= i < j < |a| ==> a[i] != a[j] }
+
+predicate sorted (a: seq<int>)
+// Checking that the seq is in order - that is from left to right
+// and non decreasing. The items on the left are never greater than the
+// items on the right
+{ forall i: int, j : int :: 
+    0 <= i < j < |a| ==> a[i] <= a[j] }
+
+predicate suffix_duplicate_none(a: seq<int>, m: int)
+// everything with right index > m is already good and has no duplicates.
+// this predicate checks for two things, the items to the right
+// of the curreent item [i], [i+1] are not the same
+// and then it checks that on the left is not equal to anything on the right
+// This function is used throughout both functions nodup and nodup_srt
 {
-  forall i,j :: 0 <= i < j < |a| ==> a[i] != a[j]
+  forall i,j :: 0 <= i < j < |a| && j > m ==> a[i] != a[j]
 }
+
+
 
 method nodup(a: seq<int>) returns (b: bool)
   ensures b <==> dup_free(a)
+  // we set b to true if and only if the sequence is duplicate free.
 {
   b := true;
   var m := |a| - 1;
-
   while (m > 0)
+  // If the input is duplicate free, then this should always hold.
     invariant dup_free(a) ==> b
-    invariant b ==> (forall p,q ::0 <= p < q < |a| && q > m ==> a[p] != a[q])
+    // everything on the right index is unique and should never change.
+    invariant b ==> suffix_duplicate_none(a, m)
   {
     var n := m - 1;
     while (n >= 0)
+    // new loop so new invariants
+    // same invariant as before, dupliocate free
       invariant dup_free(a) ==> b
-      invariant b ==> (forall p,q :: 0 <= p < q < |a| && q > m ==> a[p] != a[q])
-      invariant b ==> (forall p :: n < p < m ==> a[p] != a[m])
+      // same invariant as before, duplicates to the right
+      invariant b ==> suffix_duplicate_none(a, m)
+      // everything between n and m is already known, and we
+      // grow this left and n decreases. If we ever see the same value, we drop b.
+      invariant b ==> (forall i :: n < i < m ==> a[i] != a[m])
     {
       if a[n] == a[m] {
         b := false;
@@ -102,3 +113,25 @@ method nodup(a: seq<int>) returns (b: bool)
   }
 }
 
+// Question 3
+/*
+This is very similar to before, but the input is already sorted
+so it's just those other steps we've already looked at.
+*/
+method nodup_srt(a: seq<int>) returns (b: bool)
+requires sorted(a)
+ensures b <==> dup_free(a)
+  {
+    b := true;
+    var m: int := |a| - 1;
+    while (m > 0) 
+    // Similar to previous, duplicate free function
+    invariant dup_free(a) ==> b
+    //  the right side is find and we keep checking leftwards.
+    invariant b ==> suffix_duplicate_none(a, m)
+    {
+    if a[m-1] == a[m] { b := false; }
+    m := m - 1;
+  }
+  return b;
+}
