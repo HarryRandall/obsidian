@@ -10,7 +10,7 @@ Week 7: [[The Efficient Market Hypothesis]]            || [[Workshop 6]] ||[[200
 Week 8: Portfolio Performance Evaluation  
 Week 9: Fixed Income Securities  
 Week 10: [[The Term Structure of Interest Rates]]  || [[Workshop 6]] ||[[200 ANU Finance/Investments/Tutorials/Tutorial 9 | Tutorial 9]]
-Week 11: Managing Bond Portfolios  
+Week 11: [[Managing Bond Portfolios]]
 Week 12: Review
 
 ---

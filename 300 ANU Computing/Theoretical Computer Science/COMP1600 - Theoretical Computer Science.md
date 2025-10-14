@@ -9,7 +9,7 @@ Week 6: [[Advanced Induction]]      || [[300 ANU Computing/Theoretical Computer 
 Week 7: [[Tree Induction]]               || [[Tutorial 7]]
 Week 8: [[Termination]]                   ||[[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 8 | Tutorial 8]]
 Week 9: [[Hoare Triples]]                 ||[[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 9 | Tutorial 9]]
-Week 10: [[Invariance]]                    || [[Tutorial 10]]
+Week 10: [[Invariance]]                    || [[300 ANU Computing/Theoretical Computer Science/Tutorials/Tutorial 10]]
 Week 11:
 Week 12:
 
