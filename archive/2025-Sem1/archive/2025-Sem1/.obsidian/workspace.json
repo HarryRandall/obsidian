@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "f06a953e364cdd1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c60c2953fe80e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46b2680f879586a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFS1001/Week 11/Lecture 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 11"
+            }
+          },
+          {
+            "id": "8f15f3fe2b64bc17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MGMT3005/Week 11/Tutorial 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial 11"
+            }
+          },
+          {
+            "id": "12707b512f7b85c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "INFS1001/Week 11/Tutorial 11.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tutorial 11"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "658300d000f1434e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b4a5f5adbc2a7d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "773669849b4d6a7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9feaa2878fa17537",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6ef094a7a9730403",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0608c4376a0f0ad0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f928416a88eca6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bd66725f917d9bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MGMT3005/Textbook.pdf",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Textbook"
+            }
+          },
+          {
+            "id": "48600249a207e669",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MGMT3005/Textbook.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Textbook"
+            }
+          },
+          {
+            "id": "7f8215f436919296",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "01fc2cfb9511faea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MGMT3005/Textbook.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Textbook"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "773669849b4d6a7e",
+  "lastOpenFiles": [
+    "INFS1001/Week 11/Lecture 11.md",
+    "MGMT3005/Week 11/Tutorial 11.md",
+    "MGMT3005/Week 11",
+    "INFS1001/Week 11/Tutorial 11.md",
+    "INFS1001 Tutorial Week 11.pdf",
+    "INFS1001/Week 10/Tutorial 10.md",
+    "MGMT3005/Week 10/Tutorial 9 (NETFLIX).md",
+    "MGMT3005/Textbook.pdf",
+    "INFS1001/Week 10/Lecture 10.md",
+    "INFS1001/Week 8/Lecture 8.md",
+    "INFS1001/Media/INFS1001 Tutorial Week 8.pdf",
+    "INFS1001 Deck Week 11.pdf",
+    "INFS1001/Week 11",
+    "MGMT3005/Week 10",
+    "INFS1001/Week 9/INFS1001 Tutorial Week 9.pdf",
+    "FINM2002/Week 10/Lecture 10.md",
+    "FINM2002/Media/Lecture 10 - Exotic Options and MBS.pdf",
+    "INFS1001/Media/INFS1001 Tutorial Week 10.pdf",
+    "MGMT3005/Week 7/Tutorial 6.md",
+    "Week.md",
+    "FINM2002/Week 9/Tutorial 9.md",
+    "INFS1001/Week 8/Tutorial 8.md",
+    "COMP2400/Week 8/Tutorial 7.md"
+  ]
+}
