@@ -1,1 +1,0 @@
-![[Entity-relationship Model (Part 4).pdf]]

@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "100 Notes",
-      "template": "999 Templates/Class Template.md"
+      "folder": "/",
+      "template": "999 Templates/class-summary.md"
     }
   ],
   "enable_file_templates": false,

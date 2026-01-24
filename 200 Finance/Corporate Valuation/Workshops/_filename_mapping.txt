@@ -1,0 +1,9 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Workshop 1.md -> Week 02 - Workshop 1.md
+Workshop 2.md -> Week 03 - Workshop 1.md
+Workshop 3.md -> Week 04 - Workshop 1.md
+Workshop 4.md -> Week 05 - Workshop 1.md
+Workshop 5.md -> Week 06 - Workshop 1.md
+Workshop 8.md -> Week 09 - Workshop 1.md

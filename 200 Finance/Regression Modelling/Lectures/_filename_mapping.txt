@@ -1,0 +1,23 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Introduction to Regression Modelling.md -> Week 01 - Lecture 1.md
+Parameter interpretation and estimation.md -> Week 02 - Lecture 1.md
+ANOVA & Coefficient Inference.md -> Week 03 - Lecture 1.md
+Hypothesis Testing & Diagnostics in SLR.md -> Week 04 - Lecture 1.md
+Influential Observations & Scale Transformations.md -> Week 05 - Lecture 1.md
+Matrix Algebra & Introduction to Multiple Linear Regression (MLR).md -> Week 06 - Lecture 1.md
+Inference & ANOVA in MLR.md -> Week 07 - Lecture 1.md
+Multicollinearity & Polynomial Regression.md -> Week 08 - Lecture 1.md
+Qualitative Variables in MLR.md -> Week 09 - Lecture 1.md
+Model Diagnostics & Influence Diagnostics.md -> Week 10 - Lecture 1.md
+Model Selection & Comparison Criteria.md -> Week 11 - Lecture 1.md
+Review & Exam Preparation.md -> Week 12 - Lecture 1.md
+
+Note: The following files may not match exactly:
+- Regression Overview.md
+- Regression Recap.md
+- Statistics Refresher.md
+- Y(1) - R-Squared.md
+- Y(2) - Least Squares.md
+- Y(3) The Basics of Linear Regression.md

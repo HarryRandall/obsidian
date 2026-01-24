@@ -1,17 +1,13 @@
-<<<<<<< HEAD
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/graph.json
-.DS_Store
-=======
-# Ignore Obsidian local state files
+# Obsidian local state files (these vary per device)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/graph.json
 
-# macOS junk files
+# OS junk files
 .DS_Store
-
-# Windows junk files (if shared cross-platform)
->>>>>>> 7c7588a (Add .gitignore for Obsidian local state + OS junk)
 Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*~

@@ -1,0 +1,16 @@
+### Course Summary
+
+| Week | Lecture                                                                                                      | Tutorial                                                                                                      |
+|:----:|:-------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------|
+|  1   | [[200 Finance/Strategic Management/Lectures/Week 01 - Lecture 1\|Week 01 - Lecture 1]]                   |                                                                                                               |
+|  2   | [[200 Finance/Strategic Management/Lectures/Week 02 - Lecture 1\|Week 02 - Lecture 1]]                   | [[200 Finance/Strategic Management/Tutorials/Week 02 - Tutorial 1\|Week 02 - Tutorial 1]]                 |
+|  3   | [[200 Finance/Strategic Management/Lectures/Week 03 - Lecture 1\|Week 03 - Lecture 1]]                   | [[200 Finance/Strategic Management/Tutorials/Week 03 - Tutorial 1\|Week 03 - Tutorial 1]]                 |
+|  4   | [[200 Finance/Strategic Management/Lectures/Week 04 - Lecture 1\|Week 04 - Lecture 1]]                   |                                                                                                               |
+|  5   | [[200 Finance/Strategic Management/Lectures/Week 05 - Lecture 1\|Week 05 - Lecture 1]]                   |                                                                                                               |
+|  6   |                                                                                                             |                                                                                                               |
+|  7   |                                                                                                             | [[200 Finance/Strategic Management/Tutorials/Week 07 - Tutorial 1\|Week 07 - Tutorial 1]]                 |
+|  8   |                                                                                                             |                                                                                                               |
+|  9   |                                                                                                             |                                                                                                               |
+| 10   |                                                                                                             | [[200 Finance/Strategic Management/Tutorials/Week 10 - Tutorial 1\|Week 10 - Tutorial 1]]                 |
+| 11   |                                                                                                             | [[200 Finance/Strategic Management/Tutorials/Week 11 - Tutorial 1\|Week 11 - Tutorial 1]]                 |
+| 12   |                                                                                                             |                                                                                                               |

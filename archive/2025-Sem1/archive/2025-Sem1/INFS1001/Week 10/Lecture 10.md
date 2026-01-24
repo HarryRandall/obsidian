@@ -1,1 +1,0 @@
-![[INFS1001 Deck Week 10.pdf]]

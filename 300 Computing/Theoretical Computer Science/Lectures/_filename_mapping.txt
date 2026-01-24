@@ -1,0 +1,13 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Propositional Logic.md -> Week 01 - Lecture 1.md
+Predicate Logic.md -> Week 02 - Lecture 1.md
+Debugging In Dafny.md -> Week 03 - Lecture 1.md
+Induction & Recursion.md -> Week 04 - Lecture 1.md
+Dafny & Lists.md -> Week 05 - Lecture 1.md
+Advanced Induction.md -> Week 06 - Lecture 1.md
+Tree Induction.md -> Week 07 - Lecture 1.md
+Termination.md -> Week 08 - Lecture 1.md
+Hoare Triples.md -> Week 09 - Lecture 1.md
+Invariance.md -> Week 10 - Lecture 1.md

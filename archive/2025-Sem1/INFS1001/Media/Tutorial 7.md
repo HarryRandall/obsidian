@@ -1,1 +1,0 @@
-![[INFS1001 Tutorial Week 7.pdf]]

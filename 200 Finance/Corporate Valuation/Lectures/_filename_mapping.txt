@@ -1,0 +1,12 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Valuation in context.md -> Week 01 - Lecture 1.md
+DCF valuation.md -> Week 02 - Lecture 1.md
+Financial Modelling & Statement Restructuring.md -> Week 03 - Lecture 1.md
+Forecasting & Model Integrity.md -> Week 04 - Lecture 1.md
+Cost of Capital.md -> Week 05 - Lecture 1.md
+Incorporating Growth Potential.md -> Week 06 - Lecture 1.md
+Multiple-based valuations.md -> Week 07 - Lecture 1.md
+Asset-based Valuations.md -> Week 08 - Lecture 1.md
+Sensitivity and scenario analysis.md -> Week 09 - Lecture 1.md

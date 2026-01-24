@@ -1,0 +1,10 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Tutorial 1.md -> Week 02 - Tutorial 1.md
+Tutorial 2.md -> Week 03 - Tutorial 1.md
+Tutorial 3.md -> Week 04 - Tutorial 1.md
+Tutorial 4.md -> Week 05 - Tutorial 1.md
+Tutorial 5.md -> Week 06 - Tutorial 1.md
+Tutorial 6.md -> Week 07 - Tutorial 1.md
+Tutorial 9.md -> Week 10 - Tutorial 1.md

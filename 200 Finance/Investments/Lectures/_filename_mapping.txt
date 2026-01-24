@@ -1,0 +1,12 @@
+Filename Mapping - Created before renaming
+==================================================
+
+Introduction to Investments.md -> Week 01 - Lecture 1.md
+Risk and Return.md -> Week 02 - Lecture 1.md
+Capital Allocation & Risky Portfolios.md -> Week 03 - Lecture 1.md
+Capital Asset Pricing Model.md -> Week 04 - Lecture 1.md
+Index Models.md -> Week 05 - Lecture 1.md
+Multifactor Models.md -> Week 06 - Lecture 1.md
+The Efficient Market Hypothesis.md -> Week 07 - Lecture 1.md
+The Term Structure of Interest Rates.md -> Week 10 - Lecture 1.md
+Managing Bond Portfolios.md -> Week 11 - Lecture 1.md
